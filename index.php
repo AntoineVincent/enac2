@@ -83,7 +83,9 @@
          <div id="jury"></div>
         <section>
             <div class="container jumbotron">
+                <br/>
                 <h1>Le Jury</h1>
+                <br/>
                 <p>Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
                 <p>Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
                 <div class="row">
@@ -100,10 +102,13 @@
         <div id="tuteur"></div>
         <section>
             <div class="container jumbotron">
+                <br/>
                 <h1>Les Tuteurs</h1>
+                <br/>
                 <p>Les Challengers pourront s’appuyer sur les conseils des tuteurs du Challenge pour préparer leur Business Plan et nouer de nouveaux contacts professionnels.</p>
                 <p>Une cinquantaine de tuteurs, issus d’entreprises de transport aérien, de l’industrie aéronautique, du monde financier, des services officiels, membres de l’Enac Alumni Executive Club, du Club Entrepreneur, apporteront leur appui aux Challengers pendant la durée du concours.</p>
-                <p>Les tuteurs ne sont pas membres du jury et l’accompagnement des Challengers n’est pas obligatoire.</p>
+                <p>Les tuteurs ne sont pas membres du jury et l’accompagnement des Challengers n’est pas obligatoire. </p>
+                <br/>
             </div>
         </section>
     </div>
