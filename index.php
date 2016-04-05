@@ -89,7 +89,7 @@
                 <p>Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
                 <p>Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
                 <div class="row">
-                  	<div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
+                  	<div class="col-xs-10 col-md-2"></div>
                   	<div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
                     <div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
                     <div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
