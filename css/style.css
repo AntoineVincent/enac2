@@ -137,7 +137,6 @@ section.bg-nuages {
   opacity: 1;
   text-decoration: none;
   color: #696969;
-  background: rgba(60, 181, 249, 0.5);
 }
 
 .img-partenaires {
@@ -164,6 +163,96 @@ section.bg-nuages {
 .jumbotron p {
   font-size:19px;
 }
+/* debut de l'onglet contact*/
+.conteneurcontact
+{
+  position:relative;
+}
+
+.popup1
+{
+  position:absolute;
+  z-index:4;
+  width:100%;
+}
+
+.contactpop
+{
+  background-image: url(../img/airplane10.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height:500px;
+  margin-top:-500px;
+}
+
+.boutonfermer
+{
+
+  width: 80px;
+  height: 25px;
+  margin-left:93%;
+  background-color: #6E6E6E;
+  padding-left:5px;
+  margin-top: 10px;
+  border: 1px solid rgba(200,200,200,1);
+  color: rgba(0,0,0,0.7);
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 3px;
+  padding-bottom: 30px;
+}
+
+.formulaire1
+{
+  text-align: center;
+}
+
+.formulaire2
+{
+  text-align: center;
+}
+
+
+#name
+{
+  margin: 10px;
+  margin-left: -120px;
+  width: 250px;
+  border: 1px solid rgba(200,200,200,0.7);
+  background-color: rgba(255,255,255,0.3);
+}
+
+#email
+{
+  margin: 10px;
+  margin-left: -120px;
+  width: 250px;
+  border: 1px solid rgba(200,200,200,0.7);
+  background-color: rgba(255,255,255,0.3);
+}
+
+#commentaire
+{
+  margin: 10px;
+  margin-left: 4%;
+  width: 400px;
+  height: 150px;
+  border: 1px solid rgba(200,200,200,0.7);
+  background-color: rgba(255,255,255,0.3);
+}
+
+.txtcontact
+{
+  color:white;
+}
+
+.bordures
+{
+  width:10%;
+}
+
+
+/*fin de l'onglet contact*/
 /* =Info Bar
 -------------------------------------------------------------- */
 #info-bar {

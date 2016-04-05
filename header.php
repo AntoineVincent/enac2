@@ -1,3 +1,5 @@
+
+
 <div class="clearfix navigation">
     <h1 id="logo">Enac Alumni</h1>
     <nav>
@@ -7,6 +9,6 @@
         <a href="#tuteur">Tuteur</a>
         <a href="./presse.php">Presse</a>
         <a href="./faq.php">FAQ</a>
-        <a href="">Contact</a>
+        <a href="#ancrecontact" id="contact">Contact</a>
    </nav>
 </div>
