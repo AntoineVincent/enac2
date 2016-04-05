@@ -7,6 +7,6 @@
         <a href="./index.php#tuteur">Tuteur</a>
         <a href="./presse.php">Presse</a>
         <a href="./faq.php">FAQ</a>
-        <a href="">Contact</a>
+        <a href="#ancrecontact" id="contact">Contact</a>
    </nav>
 </div>

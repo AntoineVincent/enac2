@@ -1,5 +1,3 @@
-
-
 <div class="clearfix navigation">
     <h1 id="logo">Enac Alumni</h1>
     <nav>

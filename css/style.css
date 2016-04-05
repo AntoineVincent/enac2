@@ -370,6 +370,9 @@ header.smaller nav a {
   -o-box-shadow: 0px 1px 2px 0px #656565;
   box-shadow: 0px 1px 2px 0px #656565;
   filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=2);
+  border: solid black 1px;
+  height: 100%;
+  width: 100%;
 }
 
 /* =Media Queries
@@ -465,4 +468,7 @@ footer {
   border-color: white transparent transparent transparent;
   margin: auto;
   height: 20px;
+}
+.azerty {
+  height: 800px;
 }
