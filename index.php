@@ -11,6 +11,7 @@
 <!-- css -->
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/style.css" />
 
@@ -116,7 +117,7 @@
         <div class="row popup">
             <div class="col-md-2 bordures"></div>
             <div class="col-md-8 contactpop">
-                <a href="#1"><div class="boutonfermer">Fermer X</div></a>
+                <button class="btn"><i class="fa fa-times"></i></button>
                 <div class="col-md-4 formulaire1">
                     <h2 class="txtcontact">contact</h2>
                     <p class="txtcontact">ici le texte du contact</p>
