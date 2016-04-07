@@ -186,16 +186,13 @@ section.bg-nuages {
   width: 80%;
   height:500px;
   margin-top:-500px;
+  padding-top:20px;
 }
 
 .boutonfermer
 { 
-  width: 80px;
-  height: 25px;
-  margin-left:93%;
-  padding-left:5px;
-  margin-top: 10px;
-  padding-bottom: 30px;
+float:right;
+
 }
 
 .formulaire1
@@ -212,7 +209,8 @@ section.bg-nuages {
 #name
 {
   margin: 10px;
-  margin-left: -120px;
+  margin-left: -85px;
+  padding-left: 10px;
   width: 250px;
   border: 1px solid rgba(200,200,200,0.7);
   background-color: rgba(255,255,255,0.3);
@@ -222,6 +220,7 @@ section.bg-nuages {
 {
   margin: 10px;
   margin-left: -120px;
+  padding-left: 10px;
   width: 250px;
   border: 1px solid rgba(200,200,200,0.7);
   background-color: rgba(255,255,255,0.3);
@@ -231,6 +230,7 @@ section.bg-nuages {
 {
   margin: 10px;
   margin-left: 4%;
+  padding-left: 10px;
   width: 400px;
   height: 150px;
   border: 1px solid rgba(200,200,200,0.7);

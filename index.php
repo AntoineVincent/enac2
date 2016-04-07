@@ -60,7 +60,7 @@
         <div class="col-xs-12 transition">
             <div class="triangle"></div>
         </div>
-        <section class="bg-nuages test"> <!--============== Section Challenge ================--->
+        <section class="bg-nuages test"> <!--============== Section Challenge ================-->
             <div class="container jumbotron">
                 <br />
                 <h1>Le Challenge</h1>
@@ -82,7 +82,7 @@
 
         </section>
          <div id="jury"></div>
-        <section> <!--============== Section Jury ================--->
+        <section> <!--============== Section Jury ================-->
             <div class="container jumbotron">
                 <br/>
                 <h1>Le Jury</h1>
@@ -100,7 +100,7 @@
             </div>
         </section>
         <div id="tuteur"></div>
-        <section> <!--============== Section Tuteur ================--->
+        <section> <!--============== Section Tuteur ================-->
             <div class="container jumbotron">
                 <br/>
                 <h1>Les Tuteurs</h1>
@@ -117,14 +117,16 @@
         <div class="row popup">
             <div class="col-md-2 bordures"></div>
             <div class="col-md-8 contactpop">
-                <button class="btn"><i class="fa fa-times"></i></button>
+               
                 <div class="col-md-4 formulaire1">
                     <h2 class="txtcontact">contact</h2>
+                    <br/>
                     <p class="txtcontact">ici le texte du contact</p>
                     <p class="txtcontact">adresse</p>
                     <p class="txtcontact">autres coordonnées</p>
                 </div>
                 <div class="col-md-8 formulaire2">
+                 <button class="btn boutonfermer"><i class="fa fa-times"></i></button>
                     <form method="post" action="./contact.php">
                         <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
                         <br/>
