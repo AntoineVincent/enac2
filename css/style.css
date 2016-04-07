@@ -113,11 +113,15 @@ section.color {
 }
 
 section.bg-nuages {
-  background-image: url(../img/Airplane16.jpg);
-  background-position: center;
+  background-image: url(../img/Airplane18.jpg);
   background-attachment: fixed;
   background-size:cover;
 }
+section.bg-avion{
+	background-image:url(../img/airplane9.jpg);
+	background-attachment:fixed;	
+	background-size: cover;
+	}
 
 .button {
   text-align: center;

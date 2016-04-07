@@ -89,7 +89,7 @@
 
         </section>
          <div id="jury"></div>
-        <section> <!--============== Section Jury ================-->
+        <section class="bg-avion"> <!--============== Section Jury ================-->
             <div class="container jumbotron">
                 <br/>
                 <h1>Le Jury</h1>
@@ -127,7 +127,7 @@
             </div>
         </section>
         <div id="tuteur"></div>
-        <section> <!--============== Section Tuteur ================-->
+        <section class="bg-avion"> <!--============== Section Tuteur ================-->
             <div class="container jumbotron">
                 <br/>
                 <h1>Les Tuteurs</h1>
