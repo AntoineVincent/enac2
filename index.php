@@ -12,6 +12,7 @@
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/style.css" />
 
@@ -55,11 +56,17 @@
 
 
     <div id="content">
-      <div class="img-partenaires"></div>
+      <div class="img-partenaires">
+      	<div class="row flotteur">
+            <div class="col-md-12 centrer">
+            	<a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
+            </div>
+        </div>     		
+      </div>
       <div id="challenge"></div>
-        <div class="col-xs-12 transition">
+        <!--<div class="col-xs-12 transition">
             <div class="triangle"></div>
-        </div>
+        </div>-->
         <section class="bg-nuages test"> <!--============== Section Challenge ================-->
             <div class="container jumbotron">
                 <br />
