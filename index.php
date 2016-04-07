@@ -59,7 +59,7 @@
         <div class="col-xs-12 transition">
             <div class="triangle"></div>
         </div>
-        <section class="bg-nuages test">
+        <section class="bg-nuages test"> <!--============== Section Challenge ================--->
             <div class="container jumbotron">
                 <br />
                 <h1>Le Challenge</h1>
@@ -81,7 +81,7 @@
 
         </section>
          <div id="jury"></div>
-        <section>
+        <section> <!--============== Section Jury ================--->
             <div class="container jumbotron">
                 <br/>
                 <h1>Le Jury</h1>
@@ -99,7 +99,7 @@
             </div>
         </section>
         <div id="tuteur"></div>
-        <section>
+        <section> <!--============== Section Tuteur ================--->
             <div class="container jumbotron">
                 <br/>
                 <h1>Les Tuteurs</h1>
@@ -131,7 +131,7 @@
                         <br/>
                         <textarea name="commentaire" id="commentaire">Message</textarea>
                         <br/>
-                        <input name="bouton" type="submit" id="btncontact" class="inputform" value="Envoyez votre message"></input>
+                        <input name="bouton" type="submit" id="btncontact" class="inputform btn" value="Envoyez votre message"></input>
                         <br/>
                     </form>
                 </div>
