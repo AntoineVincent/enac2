@@ -91,10 +91,30 @@
                 <p>Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
                 <div class="row">
                   	<div class="col-xs-10 col-md-2"></div>
-                  	<div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
-                    <div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
-                    <div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow "></div>
-                  	<div class="col-xs-10 col-md-2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow"></div>
+                  	<div class="col-xs-10 col-md-2 photo1">
+                  		<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                  		<div class="tem2">
+                  			<p>cet homme est content</p>
+                  		</div>
+                  		<div class="arrow-left"></div>
+                  	</div>
+                    <div class="col-xs-10 col-md-2 photo2">
+                    	<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                    	<div class="tem1">
+                    		<p>cet homme est heureux</p>
+                    	</div>
+                    	<div class="arrow-right"></div>
+                    </div>
+                    <div class="col-xs-10 col-md-2 photo3">
+                    	<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                    	<div class="tem4"></div>
+                    	<div class="arrow-left"></div>
+                    </div>
+                  	<div class="col-xs-10 col-md-2 photo4">
+                  		<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow">
+                  		<div class="tem3"></div>
+                  		<div class="arrow-right"></div>
+                  	</div>
                 </div>
                 <br />
             </div>
@@ -154,5 +174,6 @@
 
 <script type="text/javascript" src="js/ancres.js"></script>
 <script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/jury_text.js"></script>
 </body>
 </html>
