@@ -115,6 +115,7 @@ section.color {
 section.bg-nuages {
   background-image: url(../img/Airplane.jpg);
   background-position: center;
+  background-attachment: fixed;
   background-size:cover;
 }
 
