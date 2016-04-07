@@ -439,26 +439,13 @@ header.smaller nav a {
 /* =Footer
 -------------------------------------------------------------- */
 footer {
-  border-top: solid black 1px;
-  background-color:white;
-  height: 175px;
+  background-color:#eee;
+  height: 30px;
 }
 .copyb {
-   padding-top: 30px;
-}
-.copyb, .copy {
   font-family: "Oswald", sans-serif;
-  font-size: 22px;
-}
-.listef {
-  padding-top: 65px;
-  font-family: "Oswald", sans-serif;
-  font-size: 22px;
-}
-.contf, .contff {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  margin-left: 10px;
 }
 .transition {
   text-align: center;
