@@ -4,7 +4,7 @@ $(document).ready(function(){
 			{
 				$('.contactpop').fadeIn('slow',0)
 			});
-	
+		
 			$('.boutonfermer').click(function()
 			{
 				$('.contactpop').fadeOut('slow', 0);
@@ -17,5 +17,5 @@ $(document).ready(function(){
 	});
 	$('#commentaire').click(function(){
 		$(this).select();
-	})
+	});
 });
