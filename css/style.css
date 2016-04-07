@@ -113,7 +113,7 @@ section.color {
 }
 
 section.bg-nuages {
-  background-image: url(../img/Airplane.jpg);
+  background-image: url(../img/Airplane16.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size:cover;
@@ -247,6 +247,35 @@ float:right;
 {
   width:10%;
 }
+
+.centrer {	
+    width:0;
+	margin: auto;	
+	color:white;	
+	}
+	
+.flotteur {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+}
+
+.none {
+	text-decoration: none;
+	color: white;
+}
+
+.none:hover {
+	color: white;
+	text-decoration:none;
+}
+
+.none:visited, .none:focus, .none:active {
+	text-decoration:none;
+	color: white;
+	border:transparent;
+	}
+
 
 
 /*fin de l'onglet contact*/

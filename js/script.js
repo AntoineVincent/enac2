@@ -1,8 +1,8 @@
 $(document).ready(function(){
-	$('.contactpop').hide()
-			$('#contact').click(function()
+	$(".contactpop").hide()
+			$("#contact").click(function()
 			{
-				$('.contactpop').fadeIn('slow',0)
+				$(".contactpop").fadeIn('slow',0)
 			});
 		
 			$('.boutonfermer').click(function()
