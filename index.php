@@ -128,9 +128,7 @@
         </section>
         <div id="tuteur"></div>
         <section class="bg-avion"> <!--============== Section Tuteur ================-->
-           <div class="row"> 
-            <div class="col-xs-1"></div>
-            <div class="col-xs-4 tute jumbotron">   
+            <div class="tute jumbotron">   
                 <br/>
                 <h1>Les Tuteurs</h1>
                 <br/>
@@ -139,8 +137,6 @@
                 <p>Les tuteurs ne sont pas membres du jury et l’accompagnement des Challengers n’est pas obligatoire. </p>
                 <br/>
             </div>
-            <div class="col-xs-8"></div>
-           </div>
         </section>
     </div>
 <!-- #main -->
