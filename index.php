@@ -59,9 +59,10 @@
       <div class="img-partenaires">
       		<div class="fondgris">
 	      		<video autoplay loop id="bgvid">
-	            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+                	            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
 	            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
 	            </video>
+                
            	</div>
       	<div class="row flotteur">
             <div class="col-md-12 centrer">
