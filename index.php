@@ -43,7 +43,7 @@
 
 
 <body>
-
+<div class="container-fluid">
 <div id="wrapper">
 
 <header>
@@ -54,7 +54,7 @@
 
 
 
-<div class="container-fluid">
+
     <div id="content">
       <div class="img-partenaires">
       		<div class="fondgris">
@@ -100,8 +100,8 @@
                 <br/>
                 <h1>Le Jury</h1>
                 <br/>
-                <p>Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
-                <p>Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
+                <p align="justify">Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
+                <p align="justify">Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
                 <div class="row">
                   	<div class="col-xs-10 col-md-2"></div>
                   	<div class="col-xs-10 col-md-2 photo1">
@@ -146,7 +146,7 @@
             </div>
         </section>
     </div>
-</div>
+
 <!-- #main -->
 <!--pop up contact -->
         <div class="row popup">
@@ -188,6 +188,7 @@
 
 
 </div><!-- /#wrapper -->
+</div>
 
 <script type="text/javascript" src="js/ancres.js"></script>
 <script type="text/javascript" src="./js/script.js"></script>

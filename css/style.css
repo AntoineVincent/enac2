@@ -113,7 +113,7 @@ section.color {
 }
 
 section.bg-nuages {
-  background-image: url(../img/Airplane18.jpg);
+  background-image: url(../img/Airplane17.jpg);
   background-attachment: fixed;
   background-size:cover;
 }
@@ -194,8 +194,7 @@ video#bgvid {
     left: 50%;
     min-width: 500px;    
     width: 500px;
-    height: auto;
-    
+    height: auto;    
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
@@ -328,14 +327,6 @@ float:right;
 
 
 /*fin de l'onglet contact*/
-/* =Info Bar
--------------------------------------------------------------- */
-#info-bar {
-  background-color: #3cb5f9;
-}
-
-
-
 
 /* =Header
 -------------------------------------------------------------- */
@@ -405,7 +396,6 @@ header.smaller {
 }
 
 header.smaller h1#logo {
-
   height: 75px;
   line-height: 75px;
   font-size: 24px;
@@ -447,6 +437,7 @@ header.smaller nav a {
   height: 100%;
   width: 100%;
 }
+
 
 /* =Media Queries
 -------------------------------------------------------------- */
