@@ -1,8 +1,21 @@
 $(document).ready(function(){
-	$(".contactpop").hide()
-			$("#contact").click(function()
+	$('#bgvid').hide();
+	$('.fondgris').hide();
+	 window.onload = function(){
+		 setTimeout(function()
+	  	{
+	    	$("#bgvid").fadeIn('slow', 0);
+	    	$('.fondgris').fadeIn('slow', 0);
+	  	}, 1000);
+	};
+	$(document).scroll(function(){
+		$('#bgvid').fadeOut('slow', 0);
+		$('.fondgris').fadeOut('slow', 0);
+	});
+		$(".contactpop").hide();
+		$("#contact").click(function()
 			{
-				$(".contactpop").fadeIn('slow',0)
+				$(".contactpop").fadeIn('slow',0);
 			});
 		
 			$('.boutonfermer').click(function()
@@ -19,5 +32,4 @@ $(document).ready(function(){
 		$(this).select();
 	});
 
-	
 });
