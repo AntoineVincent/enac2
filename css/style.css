@@ -171,7 +171,8 @@ section.bg-avion{
   font-size:19px;
 }
 .tute {
-  margin: 0 auto;
+  width: 30%;
+  margin-left: 10%;
   padding: 0 30px;
   margin-top:25px;
 }
