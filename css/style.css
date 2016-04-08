@@ -212,6 +212,8 @@ video#bgvid {
   margin-left: 10%;
   padding: 0 30px;
   margin-top:25px;
+  color: white;
+  text-align: justify;
 }
 
 /* debut de l'onglet contact*/
