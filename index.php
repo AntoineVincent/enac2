@@ -134,7 +134,7 @@
         </section>
         <div id="tuteur"></div>
         <section class="bg-avion"> <!--============== Section Tuteur ================-->
-            <div class="tute jumbotron">   
+            <div class="tute ">   
                 <br/>
                 <h1>Les Tuteurs</h1>
                 <br/>
