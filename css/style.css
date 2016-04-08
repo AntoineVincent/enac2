@@ -170,6 +170,7 @@ section.bg-avion{
 .jumbotron p {
   font-size:19px;
 }
+<<<<<<< HEAD
 
 video#bgvid { 
     position: fixed;
@@ -191,6 +192,14 @@ video#bgvid {
 	height:650px;
 	}
 
+=======
+.tute {
+  width: 30%;
+  margin-left: 10%;
+  padding: 0 30px;
+  margin-top:25px;
+}
+>>>>>>> origin/master
 /* debut de l'onglet contact*/
 .conteneurcontact
 {
@@ -377,9 +386,6 @@ header nav a:hover {
 header.smaller {
   height: 75px;
   background-color: white;
-}
-header.smaller:hover
-{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -422,12 +428,7 @@ header.smaller nav a {
 }
 
 .shadow {
-  -moz-box-shadow: 0px 1px 2px 0px #656565;
-  -webkit-box-shadow: 0px 1px 2px 0px #656565;
-  -o-box-shadow: 0px 1px 2px 0px #656565;
-  box-shadow: 0px 1px 2px 0px #656565;
-  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=2);
-  border: solid black 1px;
+ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   height: 100%;
   width: 100%;
 }
@@ -516,24 +517,26 @@ footer {
 .azerty {
   height: 800px;
 }
+/*presentations personnages jury */
 .arrow-left {
   width: 0;
   height: 0;
   border-top: 40px solid transparent;
-  border-right: 25px solid #1fa597;
+  border-right: 25px solid #3CB5F9;
   border-bottom: 40px solid transparent;
   border-left: 25px solid transparent;
   margin: auto; 
   position: absolute;
   margin-top: -130px;
-  margin-left: 150px;
+  margin-left: 148px;
+  z-index: 7;
 }
 .arrow-right
 {
   border-top: 40px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 25px solid #1fa597;
+  border-left: 25px solid #3CB5F9;
   width: 0;
   height: 0;
   margin: auto;
@@ -545,20 +548,22 @@ footer {
 .tem1,.tem3
 {
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 95%;
+    width: 85%;
     margin-left: 0px;
     margin-top: -175px;
     background-color: #3CB5F9;
+    box-shadow: 0 1px 5px black;
 }
 .tem2, .tem4
 {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  margin-left: -30px;
+  height: 95%;
+  width: 85%;
+  margin-left: 0px;
   margin-top: -175px;
   background-color: #3CB5F9;
+  box-shadow: 0 1px 5px black;
 }
 
 .photo1:hover .photo2

@@ -11,96 +11,96 @@ $(document).ready(function(){
 
 	$('.photo1').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo1').find('.arrow-left').fadeIn('fast');
-	    $('.tem1').fadeIn('fast');
+	    $('.photo1').find('.arrow-left').show();
+	    $('.tem1').show();
 	  }, 200);
 	});
 	  $('.photo1').mouseleave(function() {
-	    $('.tem1').fadeOut('fast');
-	    $( this ).find('.arrow-left').fadeOut('fast');
+	    $('.tem1').hide();
+	    $( this ).find('.arrow-left').hide();
 	    clearInterval(holdHover);
   	});
 
 	$('.photo2').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo2').find('.arrow-right').fadeIn('fast');
-	    $('.tem2').fadeIn('fast');
+	    $('.photo2').find('.arrow-right').show();
+	    $('.tem2').show();
 	  }, 200);
 	});
 	  $('.photo2').mouseleave(function() {
-	    $('.tem2').fadeOut('fast');
-	    $( this ).find('.arrow-right').fadeOut('fast');
+	    $('.tem2').hide();
+	    $( this ).find('.arrow-right').hide();
 	    clearInterval(holdHover);
   	});
 
 	$('.photo3').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo3').find('.arrow-left').fadeIn('fast');
-	    $('.tem3').fadeIn('fast');
+	    $('.photo3').find('.arrow-left').show();
+	    $('.tem3').show();
 	  }, 200);
 	});
 	  $('.photo3').mouseleave(function() {
-	    $('.tem3').fadeOut('fast');
-	    $( this ).find('.arrow-left').fadeOut('fast');
+	    $('.tem3').hide();
+	    $( this ).find('.arrow-left').hide();
 	    clearInterval(holdHover);
   	});
 
 	$('.photo4').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo4').find('.arrow-right').fadeIn('fast');
-	    $('.tem4').fadeIn('fast');
+	    $('.photo4').find('.arrow-right').show();
+	    $('.tem4').show();
 	  }, 200);
 	});
 	$('.photo4').mouseleave(function() {
-		$('.tem4').fadeOut('fast');
-		$( this ).find('.arrow-right').fadeOut('fast');
+		$('.tem4').hide();
+		$( this ).find('.arrow-right').hide();
 		clearInterval(holdHover);
 	});
 	$('.photo5').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo5').find('.arrow-left').fadeIn('fast');
-	    $('.tem5').fadeIn('fast');
+	    $('.photo5').find('.arrow-left').show();
+	    $('.tem5').show();
 	  }, 200);
 	});
 	$('.photo5').mouseleave(function() {
-		$('.tem5').fadeOut('fast');
-		$( this ).find('.arrow-left').fadeOut('fast');
+		$('.tem5').hide();
+		$( this ).find('.arrow-left').hide();
 		clearInterval(holdHover);
 	});
 
 	$('.photo6').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo6').find('.arrow-right').fadeIn('fast');
-	    $('.tem6').fadeIn('fast');
+	    $('.photo6').find('.arrow-right').show();
+	    $('.tem6').show();
 	  }, 200);
 	});
 	$('.photo6').mouseleave(function() {
-		$('.tem6').fadeOut('fast');
-		$( this ).find('.arrow-right').fadeOut('fast');
+		$('.tem6').hide();
+		$( this ).find('.arrow-right').hide();
 		clearInterval(holdHover);
 	});
 
 	$('.photo7').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo7').find('.arrow-left').fadeIn('fast');
-	    $('.tem7').fadeIn('fast');
+	    $('.photo7').find('.arrow-left').show();
+	    $('.tem7').show();
 	  }, 200);
 	});
 	$('.photo7').mouseleave(function() {
-		$('.tem7').fadeOut('fast');
-		$( this ).find('.arrow-left').fadeOut('fast');
+		$('.tem7').hide();
+		$( this ).find('.arrow-left').hide();
 		clearInterval(holdHover);
 	});
 
 	$('.photo8').mouseenter(function() {
 		holdHover =  setInterval(function() {
-	    $('.photo8').find('.arrow-right').fadeIn('fast');
-	    $('.tem8').fadeIn('fast');
+	    $('.photo8').find('.arrow-right').show();
+	    $('.tem8').show();
 	  }, 200);
 	});
 	$('.photo8').mouseleave(function() {
-		$('.tem8').fadeOut('fast');
-		$( this ).find('.arrow-right').fadeOut('fast');
+		$('.tem8').hide();
+		$( this ).find('.arrow-right').hide();
 		clearInterval(holdHover);
 	});
 
