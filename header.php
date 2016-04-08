@@ -1,5 +1,5 @@
 <div class="clearfix navigation">
-    <h1 id="logo"></h1>
+    <h1 id="logo"> challenge avico</h1>
     <nav>
 
         <a href="#challenge">Challenge</a>
