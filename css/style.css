@@ -221,6 +221,7 @@ video#bgvid {
   text-align: justify;
 }
 
+
 /* debut de l'onglet contact*/
 .conteneurcontact
 {
@@ -449,6 +450,11 @@ header.smaller nav a {
 /* =Media Queries
 -------------------------------------------------------------- */
 @media all and (max-width: 960px) {
+.tute {
+  width: 80%;
+  margin-top:25px;
+  color: white;
+}
   /* =Header
   -------------------------------------------------------------- */
 header h1#logo {
@@ -506,7 +512,7 @@ header.smaller nav a {
 -------------------------------------------------------------- */
 footer {
   background-color:#eee;
-  height: 30px;
+  height:auto;
 }
 .copyb {
   font-family: "Oswald", sans-serif;
