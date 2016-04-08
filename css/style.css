@@ -170,6 +170,11 @@ section.bg-avion{
 .jumbotron p {
   font-size:19px;
 }
+.tute {
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top:25px;
+}
 /* debut de l'onglet contact*/
 .conteneurcontact
 {
