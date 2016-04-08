@@ -57,6 +57,10 @@
 <div class="container-fluid">
     <div id="content">
       <div class="img-partenaires">
+      		<video autoplay loop id="bgvid">
+            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
+            </video>
       	<div class="row flotteur">
             <div class="col-md-12 centrer">
             	<a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
@@ -126,12 +130,7 @@
                 <br />
             </div>
         </section>
-        <section class="videobg">
-        	<video autoplay loop id="bgvid">
-            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
-            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
-            </video>
-        </section>
+        
         <div id="tuteur"></div>
         <section class="bg-avion"> <!--============== Section Tuteur ================-->
             <div class="tute jumbotron">   
