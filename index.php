@@ -54,7 +54,7 @@
 
 
 
-
+<div class="container-fluid">
     <div id="content">
       <div class="img-partenaires">
       	<div class="row flotteur">
@@ -126,6 +126,12 @@
                 <br />
             </div>
         </section>
+        <section class="videobg">
+        	<video autoplay loop id="bgvid">
+            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
+            </video>
+        </section>
         <div id="tuteur"></div>
         <section class="bg-avion"> <!--============== Section Tuteur ================-->
             <div class="container jumbotron">
@@ -139,31 +145,34 @@
             </div>
         </section>
     </div>
+</div>
 <!-- #main -->
 <!--pop up contact -->
         <div class="row popup">
             <div class="col-md-2 bordures"></div>
             <div class="col-md-8 contactpop">
-               
-                <div class="col-md-4 formulaire1">
-                    <h2 class="txtcontact">contact</h2>
-                    <br/>
-                    <p class="txtcontact">ici le texte du contact</p>
-                    <p class="txtcontact">adresse</p>
-                    <p class="txtcontact">autres coordonnées</p>
-                </div>
-                <div class="col-md-8 formulaire2">
-                 <button class="btn boutonfermer"><i class="fa fa-times"></i></button>
-                    <form method="post" action="./contact.php">
-                        <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
+               	<div class="row">
+                    <div class="col-md-4 formulaire1">
+                        <h2 class="txtcontact">contact</h2>
                         <br/>
-                        <input name="email" type="text" id="email" class="inputform" value="Email"></input>
-                        <br/>
-                        <textarea name="commentaire" id="commentaire">Message</textarea>
-                        <br/>
-                        <input name="bouton" type="submit" id="btncontact" class="inputform btn" value="Envoyez votre message"></input>
-                        <br/>
-                    </form>
+                        <p class="txtcontact">ici le texte du contact</p>
+                        <p class="txtcontact">adresse</p>
+                        <p class="txtcontact">autres coordonnées</p>
+                    </div>
+                    
+                    <div class="col-md-8 formulaire2">
+                        <button class="btn boutonfermer"><i class="fa fa-times"></i></button>
+                        <form method="post" action="./contact.php">
+                            <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
+                            <br/>
+                            <input name="email" type="text" id="email" class="inputform" value="Email"></input>
+                            <br/>
+                            <textarea name="commentaire" id="commentaire">Message</textarea>
+                            <br/>
+                            <input name="bouton" type="submit" id="btncontact" class="inputform btn" value="Envoyez votre message"></input>
+                            <br/>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="col-md-2 bordures"></div>
