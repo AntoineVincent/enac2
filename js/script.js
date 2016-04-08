@@ -1,8 +1,24 @@
 $(document).ready(function(){
-	$(".contactpop").hide()
-			$("#contact").click(function()
+	$('#bgvid').hide();
+	$('.fondgris').hide();
+	 window.onload = function(){
+		 setTimeout(function()
+	  	{
+	    	$("#bgvid").fadeIn('slow', 0);
+	    	$('.fondgris').fadeIn('slow', 0);
+	  	}, 1000);
+	};
+	$(document).scroll(function(){
+		$('#bgvid, .fondgris').fadeOut('slow', 0);
+	});
+	$(document).click(function(){
+		$('#bgvid, .fondgris').fadeOut('slow', 0);
+	});
+
+		$(".contactpop").hide();
+		$("#contact").click(function()
 			{
-				$(".contactpop").fadeIn('slow',0)
+				$(".contactpop").fadeIn('slow',0);
 			});
 		
 			$('.boutonfermer').click(function()
@@ -18,4 +34,5 @@ $(document).ready(function(){
 	$('#commentaire').click(function(){
 		$(this).select();
 	});
+
 });
