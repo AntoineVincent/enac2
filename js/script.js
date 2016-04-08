@@ -9,9 +9,12 @@ $(document).ready(function(){
 	  	}, 1000);
 	};
 	$(document).scroll(function(){
-		$('#bgvid').fadeOut('slow', 0);
-		$('.fondgris').fadeOut('slow', 0);
+		$('#bgvid, .fondgris').fadeOut('slow', 0);
 	});
+	$(document).click(function(){
+		$('#bgvid, .fondgris').fadeOut('slow', 0);
+	});
+
 		$(".contactpop").hide();
 		$("#contact").click(function()
 			{
