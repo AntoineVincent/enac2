@@ -534,7 +534,7 @@ footer {
   margin: auto; 
   position: absolute;
   margin-top: -130px;
-  margin-left: 148px;
+  margin-left: 73%;
   z-index: 7;
 }
 .arrow-right
@@ -548,7 +548,7 @@ footer {
   margin: auto;
   position: absolute; 
   margin-top: -130px;
-  margin-left: -30px;
+  margin-left: -15%;
 }
 
 .tem1,.tem3
@@ -557,7 +557,7 @@ footer {
     height: 95%;
     width: 85%;
     margin-left: 0px;
-    margin-top: -175px;
+    margin-top: -87%;
     background-color: #3CB5F9;
     box-shadow: 0 1px 5px black;
 }
@@ -567,7 +567,7 @@ footer {
   height: 95%;
   width: 85%;
   margin-left: 0px;
-  margin-top: -175px;
+  margin-top: -87%;
   background-color: #3CB5F9;
   box-shadow: 0 1px 5px black;
 }
