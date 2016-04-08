@@ -18,4 +18,6 @@ $(document).ready(function(){
 	$('#commentaire').click(function(){
 		$(this).select();
 	});
+
+	
 });
