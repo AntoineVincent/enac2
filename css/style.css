@@ -455,6 +455,9 @@ header.smaller nav a {
   margin-top:25px;
   color: white;
 }
+.margefaq {
+  height:10px;
+}
   /* =Header
   -------------------------------------------------------------- */
 header h1#logo {
@@ -533,9 +536,6 @@ footer {
   margin: auto;
   height: 20px;
 }
-.azerty {
-  height: 800px;
-}
 /*presentations personnages jury */
 .arrow-left {
   width: 0;
@@ -588,4 +588,38 @@ footer {
 .photo1:hover .photo2
 {
   border: solid blue 3px;
+}
+
+.faq {
+  height: auto;
+  margin-bottom: 10px;
+}
+.question {
+  color :#559ADF;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 21px !important;
+}
+.reponse {
+  color: black;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+}
+.faque {
+  font-size: 45px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.margefaq {
+  height:500px;
+}
+.fontfaq {
+background: url(../img/Airplane.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
