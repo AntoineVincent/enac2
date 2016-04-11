@@ -194,6 +194,6 @@
 <script type="text/javascript" src="js/ancres.js"></script>
 <script type="text/javascript" src="./js/script.js"></script>
 <script type="text/javascript" src="./js/jury_text.js"></script>
-
+<script type="text/javascript" src="./js/test.js"></script>
 </body>
 </html>
