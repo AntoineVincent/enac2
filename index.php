@@ -62,13 +62,13 @@
                 	            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
 	            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
 	            </video>
-                
+
            	</div>
       	<div class="row flotteur">
             <div class="col-md-12 centrer">
             	<a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
             </div>
-        </div>     		
+        </div>
       </div>
       <div id="challenge"></div>
         <!--<div class="col-xs-12 transition">
@@ -133,10 +133,10 @@
                 <br />
             </div>
         </section>
-        
+
         <div id="tuteur"></div>
         <section class="bg-avion"> <!--============== Section Tuteur ================-->
-            <div class="tute ">   
+            <div class="tute ">
                 <br/>
                 <h1>Les Tuteurs</h1>
                 <br/>
@@ -145,6 +145,25 @@
                 <p>Les tuteurs ne sont pas membres du jury et l’accompagnement des Challengers n’est pas obligatoire. </p>
                 <br/>
             </div>
+        </section>
+        <section class="bg-avion2"> <!--============== Section Partenaires ================-->
+            <div class="fond-couleur"> 
+            	<h1 class="titre-centre">Nos partenaires</h1>
+                <div class="partenaires">
+                    <div class="partenaire1"><img src="img/partenaires/aerobuzz.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires2"><img src="img/partenaires/aerostar.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires3"><img src="img/partenaires/aigleazur.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires4"><img src="img/partenaires/aircosmos.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires5"><img src="img/partenaires/avico.png" alt="logo partenaire" class="img-responsive"></div>
+                </div>
+                <div class="partenaires">
+                    <div class="partenaire1"><img src="img/partenaires/easa.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires2"><img src="img/partenaires/fnam.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires3"><img src="img/partenaires/gofast.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires4"><img src="img/partenaires/kisskissbankbank.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires5"><img src="img/partenaires/vueling.png" alt="logo partenaire" class="img-responsive"></div>
+                </div>
+        	</div>
         </section>
     </div>
 
@@ -161,7 +180,7 @@
                         <p class="txtcontact">adresse</p>
                         <p class="txtcontact">autres coordonnées</p>
                     </div>
-                    
+
                     <div class="col-md-8 formulaire2">
                         <button class="btn boutonfermer"><i class="fa fa-times"></i></button>
                         <form method="post" action="./contact.php">
