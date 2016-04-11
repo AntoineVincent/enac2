@@ -146,24 +146,24 @@
                 <br/>
             </div>
         </section>
-        <section class="bg-avion"> <!--============== Section Partenaires ================-->
-            <div class="tute ">
-                <h1>Nos partenaires</h1>
-            </div>
-            <div class="partenaires">
-                <div class="partenaire1"><img src="img/partenaires/aerobuzz.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires2"><img src="img/partenaires/aerostar.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires3"><img src="img/partenaires/aigleazur.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires4"><img src="img/partenaires/aircosmos.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires5"><img src="img/partenaires/avico.png" alt="logo partenaire" class="img-responsive"></div>
-            </div>
-            <div class="partenaires">
-                <div class="partenaire1"><img src="img/partenaires/easa.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires2"><img src="img/partenaires/fnam.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires3"><img src="img/partenaires/gofast.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires4"><img src="img/partenaires/kisskissbankbank.png" alt="logo partenaire" class="img-responsive"></div>
-                <div class="partenaires5"><img src="img/partenaires/vueling.png" alt="logo partenaire" class="img-responsive"></div>
-            </div>
+        <section class="bg-avion2"> <!--============== Section Partenaires ================-->
+            <div class="fond-couleur"> 
+            	<h1 class="titre-centre">Nos partenaires</h1>
+                <div class="partenaires">
+                    <div class="partenaire1"><img src="img/partenaires/aerobuzz.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires2"><img src="img/partenaires/aerostar.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires3"><img src="img/partenaires/aigleazur.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires4"><img src="img/partenaires/aircosmos.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires5"><img src="img/partenaires/avico.png" alt="logo partenaire" class="img-responsive"></div>
+                </div>
+                <div class="partenaires">
+                    <div class="partenaire1"><img src="img/partenaires/easa.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires2"><img src="img/partenaires/fnam.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires3"><img src="img/partenaires/gofast.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires4"><img src="img/partenaires/kisskissbankbank.png" alt="logo partenaire" class="img-responsive"></div>
+                    <div class="partenaires5"><img src="img/partenaires/vueling.png" alt="logo partenaire" class="img-responsive"></div>
+                </div>
+        	</div>
         </section>
     </div>
 
