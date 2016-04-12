@@ -1,13 +1,25 @@
-<div class="clearfix navigation">
-    <h1 id="logo"> challenge avico</h1>
-    <nav>
-
-        <a href="#challenge">Challenge</a>
-        <a href="#jury">Jury</a>
-        <a href="#tuteur">Tuteurs</a>
-        <a href="#partenaires">Nos Partenaires</a>
-        <a href="./presse.php">Presse</a>
-        <a href="./faq.php">FAQ</a>
-        <button data-toggle="modal" data-target="#mycontact">Contact</button>
-   </nav>
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Challenge Enac-Alumni Avico</a>
+        </div>
+        <div style="" aria-expanded="true" id="navbar" class="navbar-collapse collapse in">
+          <ul class="nav navbar-nav">
+            <li><a href="#challenge">Challenge</a></li>
+            <li><a href="#jury">Jury/Tuteur</a></li>
+            <li><a href="">Actus</a></li>
+            <li><a href="">Participer</a></li>
+            <li><a href="#partenaires">Nos Partenaires</a></li>
+            <li><a href="./presse.php">Presse</a></li>
+            <li><a href="./faq.php">FAQ</a></li>
+            <li><a href="#ancrecontact" id="contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

@@ -20,7 +20,9 @@
 
 
 <!-- js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="js/jquery-1.12.2.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- Script pour rétrécir le header -->
