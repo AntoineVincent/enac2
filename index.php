@@ -24,6 +24,7 @@
 <script src="js/jquery-1.12.2.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- Script pour rétrécir le header -->
 <script>
     function init() {
@@ -118,25 +119,29 @@
                     <div class="col-xs-6 col-md-2 photo1">
                         <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
                         <div class="tem2">
-                            <p>cet homme est content</p>
+                            <p class="text-jury"></p>
                         </div>
                         <div class="arrow-left"></div>
                     </div>
                     <div class="col-xs-6 col-md-2 photo2">
                         <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
                         <div class="tem1">
-                            <p>cet homme est heureux</p>
+                            <p class="text-jury"></p>
                         </div>
                         <div class="arrow-right"></div>
                     </div>
                     <div class="col-xs-6 col-md-2 photo3">
                         <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
-                        <div class="tem4"></div>
+                        <div class="tem4">
+                        	<p class="text-jury"></p>
+                        </div>
                         <div class="arrow-left"></div>
                     </div>
                     <div class="col-xs-6 col-md-2 photo4">
                         <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow">
-                        <div class="tem3"></div>
+                        <div class="tem3">
+                        	<p class="text-jury"></p>
+                        </div>
                         <div class="arrow-right"></div>
                     </div>
                 </div>
@@ -180,36 +185,26 @@
 
 <!-- #main -->
 <!--pop up contact -->
-        <div class="row popup">
-            <div class="col-md-2 bordures"></div>
-            <div class="col-md-8 contactpop">
-                <div class="row">
-                    <div class="col-md-4 formulaire1">
-                        <h2 class="txtcontact">contact</h2>
-                        <br/>
-                        <p class="txtcontact">ici le texte du contact</p>
-                        <p class="txtcontact">adresse</p>
-                        <p class="txtcontact">autres coordonnées</p>
-                    </div>
-
-                    <div class="col-md-8 formulaire2">
-                        <button class="btn boutonfermer"><i class="fa fa-times"></i></button>
-                        <form method="post" action="./contact.php">
-                            <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
-                            <br/>
-                            <input name="email" type="text" id="email" class="inputform" value="Email"></input>
-                            <br/>
-                            <textarea name="commentaire" id="commentaire">Message</textarea>
-                            <br/>
-                            <input name="bouton" type="submit" id="btncontact" class="inputform btn" value="Envoyez votre message"></input>
-                            <br/>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 bordures"></div>
+  
+<!-- Modal -->
+    <div class="modal fade" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">contact</h4>
+          </div>
+          <div class="modal-body row">
+            <div class="col-md-6">je suis Antoine</div>
+            <div class="col-md-6">menteur</div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Envoyer Message</button>
+          </div>
         </div>
-    <div id="ancrecontact"></div>
+      </div>
+  </div>
 <footer>
     <?php
         include 'footer.php';
