@@ -8,6 +8,6 @@
         <a href="#partenaires">Nos Partenaires</a>
         <a href="./presse.php">Presse</a>
         <a href="./faq.php">FAQ</a>
-        <a href="#ancrecontact" id="contact">Contact</a>
+        <button data-toggle="modal" data-target="#mycontact">Contact</button>
    </nav>
 </div>
