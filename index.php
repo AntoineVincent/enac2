@@ -190,15 +190,30 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">contact</h4>
+            <h4 class="modal-title" id="myModalLabel"> Formulaire de contact</h4>
           </div>
           <div class="modal-body row">
-            <div class="col-md-6">je suis Antoine</div>
-            <div class="col-md-6">menteur</div>
+             <div class="col-md-4 formulaire1">
+                    <br/>
+                    <p class="txtcontact">ici le texte du contact</p>
+                    <p class="txtcontact">adresse</p>
+                    <p class="txtcontact">autres coordonnées</p>
+                </div>
+
+                <div class="col-md-8 formulaire2">
+                    <form method="post" action="./contact.php">
+                        <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
+                        <br/>
+                        <input name="email" type="text" id="email" class="inputform" value="Email"></input>
+                        <br/>
+                        <textarea name="commentaire" id="commentaire">Message</textarea>
+                        <br/>
+                    </form>
+                </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-primary">Envoyer Message</button>
+            <button type="button" class="btn btn-primary btnfermer">Envoyer Message</button>
           </div>
         </div>
       </div>

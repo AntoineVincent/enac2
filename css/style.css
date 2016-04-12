@@ -316,11 +316,16 @@ section.bg-avion2{
   margin-top:-500px;
   padding-top:20px;
 }
-
-.boutonfermer
+.modal-header
 {
-float:right;
+  background-image: url(../img/Airplane.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
+.btnfermer
+{
+  background-color: #51A2EC ;
 }
 
 .formulaire1
@@ -337,9 +342,9 @@ float:right;
 #name
 {
   margin: 10px;
-  margin-left: -85px;
+  margin-left: -50px;
   padding-left: 10px;
-  width: 250px;
+  width: 70%;
   border: 1px solid rgba(200,200,200,0.7);
   background-color: rgba(255,255,255,0.3);
 }
@@ -347,9 +352,9 @@ float:right;
 #email
 {
   margin: 10px;
-  margin-left: -120px;
+  margin-left: -50px;
   padding-left: 10px;
-  width: 250px;
+  width:70%;
   border: 1px solid rgba(200,200,200,0.7);
   background-color: rgba(255,255,255,0.3);
 }
@@ -359,7 +364,7 @@ float:right;
   margin: 10px;
   margin-left: 4%;
   padding-left: 10px;
-  width: 400px;
+  width: 90%;
   height: 150px;
   border: 1px solid rgba(200,200,200,0.7);
   background-color: rgba(255,255,255,0.3);
@@ -368,7 +373,7 @@ float:right;
 
 .txtcontact
 {
-  color:white;
+  color:black;
 }
 
 .bordures
