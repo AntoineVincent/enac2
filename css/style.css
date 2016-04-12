@@ -154,8 +154,26 @@ section.bg-avion{
   background-color:rgba(60, 181, 249, 0.3);
 }
 
+.titre_slogan
+{
+
+  font-size: 40px;
+  color: white;
+  margin-top: 16%;
+}
+.ptitre
+{
+  font-weight:bold; 
+}
+
+.pslogan
+{
+   font-family: 'Roboto',sans-serif ;
+   letter-spacing: 1.8px;
+}
+
 .img-partenaires {
-	background: url(../img/airplane15.jpg) no-repeat fixed;
+	background: url(../img/airplane9.jpg) no-repeat fixed;
 	background-size: cover;
   height: 720px;
   width: 100%;

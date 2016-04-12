@@ -11,6 +11,8 @@
 <!-- css -->
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:100|Roboto:700' rel='stylesheet' type='text/css'>
+<link href="./BebasNeue_Regular.ttf" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -57,16 +59,22 @@
 
     <div id="content">
       <div class="img-partenaires">
-      		<div class="fondgris">
-	      		<video autoplay loop id="bgvid">
-                	            	<source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
-	            	<source src ="video/airplanewingcloudysky.avi" type="video/avi">
-	            </video>
+        <div class="row">
+            <div class="col-md-6 col-xs-12 titre_slogan">
+                <p class="ptitre">CHALLENGE ENAC ALLUMNI AVICO</p>
+                <p class="pslogan"> Faites décoller vos idées novatrices</p>
+            </div>
+        </div>
+            <div class="fondgris">
+                <video autoplay loop id="bgvid">
+                                    <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+                    <source src ="video/airplanewingcloudysky.avi" type="video/avi">
+                </video>
 
-           	</div>
-      	<div class="row flotteur">
+            </div>
+        <div class="row flotteur">
             <div class="col-md-12 centrer">
-            	<a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
+                <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
             </div>
         </div>
       </div>
@@ -104,31 +112,31 @@
                 <p align="justify">Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
                 <p align="justify">Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
                 <div class="row">
-                  	<div class="col-xs-0 col-md-2"></div>
-                  	<div class="col-xs-6 col-md-2 photo1">
-                  		<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
-                  		<div class="tem2">
-                  			<p>cet homme est content</p>
-                  		</div>
-                  		<div class="arrow-left"></div>
-                  	</div>
+                    <div class="col-xs-0 col-md-2"></div>
+                    <div class="col-xs-6 col-md-2 photo1">
+                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                        <div class="tem2">
+                            <p>cet homme est content</p>
+                        </div>
+                        <div class="arrow-left"></div>
+                    </div>
                     <div class="col-xs-6 col-md-2 photo2">
-                    	<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
-                    	<div class="tem1">
-                    		<p>cet homme est heureux</p>
-                    	</div>
-                    	<div class="arrow-right"></div>
+                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                        <div class="tem1">
+                            <p>cet homme est heureux</p>
+                        </div>
+                        <div class="arrow-right"></div>
                     </div>
                     <div class="col-xs-6 col-md-2 photo3">
-                    	<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
-                    	<div class="tem4"></div>
-                    	<div class="arrow-left"></div>
+                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+                        <div class="tem4"></div>
+                        <div class="arrow-left"></div>
                     </div>
-                  	<div class="col-xs-6 col-md-2 photo4">
-                  		<img src="img/patrickbaudis.jpg" alt="jury1" class="shadow">
-                  		<div class="tem3"></div>
-                  		<div class="arrow-right"></div>
-                  	</div>
+                    <div class="col-xs-6 col-md-2 photo4">
+                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow">
+                        <div class="tem3"></div>
+                        <div class="arrow-right"></div>
+                    </div>
                 </div>
                 <br />
             </div>
@@ -146,9 +154,10 @@
                 <br/>
             </div>
         </section>
+        <div id="partenaires"></div>
         <section class="bg-avion2"> <!--============== Section Partenaires ================-->
             <div class="fond-couleur"> 
-            	<h1 class="titre-centre">Nos partenaires</h1>
+                <h1 class="titre-centre">Nos partenaires</h1>
                 <div class="partenaires">
                     <div class="partenaire1"><img src="img/partenaires/aerobuzz.png" alt="logo partenaire" class="img-responsive"></div>
                     <div class="partenaires2"><img src="img/partenaires/aerostar.png" alt="logo partenaire" class="img-responsive"></div>
@@ -163,7 +172,7 @@
                     <div class="partenaires4"><img src="img/partenaires/kisskissbankbank.png" alt="logo partenaire" class="img-responsive"></div>
                     <div class="partenaires5"><img src="img/partenaires/vueling.png" alt="logo partenaire" class="img-responsive"></div>
                 </div>
-        	</div>
+            </div>
         </section>
     </div>
 
@@ -172,7 +181,7 @@
         <div class="row popup">
             <div class="col-md-2 bordures"></div>
             <div class="col-md-8 contactpop">
-               	<div class="row">
+                <div class="row">
                     <div class="col-md-4 formulaire1">
                         <h2 class="txtcontact">contact</h2>
                         <br/>
