@@ -498,10 +498,6 @@ header {
 	line-height: 0px;
   font-weight: bolder;
 }
-.collapse {
-  background-color: rgba(0,0,0,0.7);
-
-}
 /*
 header h1#logo {
   background: url(../img/logo.png) no-repeat;
@@ -595,6 +591,10 @@ header.smaller nav a {
 }
 .margefaq {
   height:10px;
+}
+.collapse {
+  background-color: rgba(0,0,0,0.7);
+
 }
   /* =Header
   -------------------------------------------------------------- */
