@@ -106,7 +106,40 @@
             </div>
 
         </section>
-         <div id="jury"></div>
+        
+
+        <!--==============section actus et participer========-->
+        <div id="actus"></div>
+        <section class="bg-avion">
+        <div class="jumbotron ctnActuPart">
+        	<div class="row">
+	        	<div class="container2 actus col-md-6">
+	        		<br/>
+	        		<h1>Actualités</h1>
+	        		<ul>
+	        			<li> actu 1 vvufzufyzvfuyvzfuy...<a> lire la suite</a></li>
+	        			<li> actu 2 fvzyvfyevfeuyv...<a> lire la suite</a></li>
+	        			<li> actu 3 dvdyudvzayvdzdzdd...<a> lire la suite</a></li>
+	        			<li> actu 4 zdzdavuvzydvauydv...<a> lire la suite</a></li>
+	        		</ul>
+	        		<br/>
+	        	</div>
+	        	<div class="container2 dates col-md-6">
+	        		<br/>
+	        			<h1>Dates</h1>
+	        		<br/>
+	        	</div>
+	        	<div class="row">
+	        		<div class="col-md-12 participer">
+	        		<h1>Participer</h1>
+	        		<p>ICI ON A PLEIN DE CONTENU DE OUF A METTRE</p>
+	        		</div>	
+	        	</div>
+	        </div>
+        </div>
+        </section>
+
+ <div id="jury"></div>
         <section class="bg-avion"> <!--============== Section Jury ================-->
         	<div class="row">
 	            <div class="container2 contain-gauche jumbotron col-md-6">
@@ -115,7 +148,7 @@
 	                <br/>
 	                <p align="justify">Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
 	                <p align="justify">Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
-	                <div class="row">
+	                <div class="row cachephoto">
 	                    <div class="col-xs-0 col-md-2"></div>
 	                    <div class="col-xs-6 col-md-2 photo1">
 	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
@@ -159,39 +192,6 @@
             	</div>
         	</div>
         </section>
-
-
-        <!--==============section actus et participer========-->
-        <div id="actus"></div>
-        <section class="bg-avion">
-        <div class="jumbotron ctnActuPart">
-        	<div class="row">
-	        	<div class="container2 actus col-md-6">
-	        		<br/>
-	        		<h1>Actualités</h1>
-	        		<ul>
-	        			<li> actu 1 vvufzufyzvfuyvzfuy...<a> lire la suite</a></li>
-	        			<li> actu 2 fvzyvfyevfeuyv...<a> lire la suite</a></li>
-	        			<li> actu 3 dvdyudvzayvdzdzdd...<a> lire la suite</a></li>
-	        			<li> actu 4 zdzdavuvzydvauydv...<a> lire la suite</a></li>
-	        		</ul>
-	        		<br/>
-	        	</div>
-	        	<div class="container2 dates col-md-6">
-	        		<br/>
-	        			<h1>Dates</h1>
-	        		<br/>
-	        	</div>
-	        	<div class="row">
-	        		<div class="col-md-12 participer">
-	        		<h1>Participer</h1>
-	        		<p>ICI ON A PLEIN DE CONTENU DE OUF A METTRE</p>
-	        		</div>	
-	        	</div>
-	        </div>
-        </div>
-        </section>
-
 
         <div id="partenaires"></div>
         <section class="bg-avion2"> <!--============== Section Partenaires ================-->
