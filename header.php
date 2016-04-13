@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -9,7 +9,7 @@
             </button>
             <a class="navbar-brand" href="#">Challenge Enac-Alumni Avico</a>
         </div>
-        <div style="" aria-expanded="true" id="navbar" class="navbar-collapse collapse in">
+        <div style="" aria-expanded="false" id="navbar" class="navbar-collapse collapse in">
           <ul class="nav navbar-nav">
             <li><a href="#challenge">Challenge</a></li>
             <li><a href="#jury">Jury/Tuteur</a></li>
