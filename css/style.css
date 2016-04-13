@@ -163,7 +163,7 @@ section.bg-avion{
 }
 .ptitre
 {
-  font-weight:bold; 
+  font-weight:bold;
 }
 
 .pslogan
@@ -176,7 +176,7 @@ section.bg-avion{
 .img-partenaires {
 	background: url(../img/airplane9.jpg) no-repeat fixed;
 	background-size: cover;
-  height: 720px;
+  height: 100vh;
   width: 100%;
 }
 /*=========== 4 styles de sections classiques (challenge/jury/tuteurs) ============*/
@@ -246,6 +246,10 @@ margin-left:5%;
 }
 /*===================fin div par deux==============================================*/
 
+/*===================debut actus participer==============================================*/
+
+/*===================fin actus participer================================================*/
+
 
 .fondgris
 {
@@ -298,12 +302,12 @@ section.bg-avion2{
 	background: linear-gradient(to bottom right,rgba(0,0,0,0.55),rgba(0,155,255,0.55));
 	padding:50px;
 }
-		
+
 .titre-centre {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	color:white;	
+	color:white;
 }
 
 .partenaires {
@@ -472,6 +476,7 @@ header {
   -o-transition: height 0.3s;
   transition: height 0.3s;
 }
+
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
@@ -535,10 +540,13 @@ header nav a:hover {
   opacity: 1;
 }
 
-header.smaller {
-  height: 75px;
-  background-color: white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+header.smaller > .navbar-default {
+    background-color: white;
+    border-color: white;
+} 
+
+header.smaller nav a {
+    color: #559ADF !important;    
 }
 
 header.smaller h1#logo {
@@ -553,26 +561,9 @@ header.smaller h1#logo {
 }
 
 header.smaller nav a {
-  line-height: 75px;
   color: #559ADF;
-  font-size: 15px;
+  font-size: 16px;
 }
-<<<<<<< HEAD
-
-.logo-enac {
-  height: 130px;
-  position: relative;
-  left:-380px;
-}
-
-.navigation {
-  width: 90%;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
-=======
->>>>>>> f7442cbc8f7e8a4813a938d2958f1c14c4445df2
 /* =Extras
 -------------------------------------------------------------- */
 .clearfix:after {
@@ -675,7 +666,7 @@ footer {
   background-color: white;
 }
 .triangle {
-  width: 0;  
+  width: 0;
   border-style: solid;
   border-width: 50px 70px 10px 70px;
   border-color: white transparent transparent transparent;
@@ -683,10 +674,6 @@ footer {
   height: 20px;
 }
 /*presentations personnages jury */
-.cachephoto
-{
-  display: none;
-}
 
 .arrow-left {
   width: 0;
