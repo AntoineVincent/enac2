@@ -487,6 +487,10 @@ header {
     line-height: 27px;
     font-weight: bolder;
 }
+.navbar-brand:hover
+{
+  cursor: default;
+}
 
 .navbar-default .navbar-nav > li > a {
     color: white;
@@ -587,6 +591,10 @@ header.smaller .container3 {
   margin: 0 auto;
   padding: 0 30px;
   margin-top: 0px;
+}
+header.smaller .navbar-nav
+{
+  margin-left: 10%;
 }
 /* =Extras
 -------------------------------------------------------------- */
