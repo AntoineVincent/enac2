@@ -148,31 +148,31 @@
 	                <br/>
 	                <p align="justify">Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
 	                <p align="justify">Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
-	                <div class="row">
+	                <div class="row cacheimage">
 	                    <div class="col-xs-0 col-md-2"></div>
 	                    <div class="col-xs-6 col-md-2 photo1">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
 	                        <div class="tem2">
 	                            <p class="text-jury"></p>
 	                        </div>
 	                        <div class="arrow-left"></div>
 	                    </div>
 	                    <div class="col-xs-6 col-md-2 photo2">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
 	                        <div class="tem1">
 	                            <p class="text-jury"></p>
 	                        </div>
 	                        <div class="arrow-right"></div>
 	                    </div>
 	                    <div class="col-xs-6 col-md-2 photo3">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow ">
+	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
 	                        <div class="tem4">
 	                        	<p class="text-jury"></p>
 	                        </div>
 	                        <div class="arrow-left"></div>
 	                    </div>
 	                    <div class="col-xs-6 col-md-2 photo4">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow">
+	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
 	                        <div class="tem3">
 	                        	<p class="text-jury"></p>
 	                        </div>
@@ -191,6 +191,28 @@
 	                <br/>
             	</div>
         	</div>
+        </section>
+        <section>
+        	<div class="row ctnImg">
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury"></div>
+				</div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury"></div>
+        		</div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury"></div>
+        		</div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury"></div>
+        		</div>
+        	</div>
+        	<div class="row ctnImg">
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
+        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
+        	</div>	
         </section>
 
 
