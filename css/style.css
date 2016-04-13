@@ -472,7 +472,32 @@ header {
   -o-transition: height 0.3s;
   transition: height 0.3s;
 }
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
 
+.navbar-brand {
+    color:transparent !important;
+    line-height: 27px;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-nav>li>a {
+  /* padding-top: 15px; */
+  padding-bottom: 15px;
+	line-height: 0px;
+  font-weight: bolder;
+}
+.collapse {
+  background-color: rgba(0,0,0,0.7);
+
+}
+/*
 header h1#logo {
   background: url(../img/logo.png) no-repeat;
   background-size: 100px 100px;
@@ -492,18 +517,16 @@ header h1#logo {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+*/
 header nav {
   display: inline-block;
   float: right;
 }
 
 header nav a {
-  line-height: 90px;
-  margin-left: 20px;
   color: white;
   opacity: 0.7;
-  font-weight: 700;
+  font-weight: 200;
   font-size: 15px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -538,6 +561,7 @@ header.smaller nav a {
   color: #559ADF;
   font-size: 15px;
 }
+<<<<<<< HEAD
 
 .logo-enac {
   height: 130px;
@@ -551,6 +575,8 @@ header.smaller nav a {
   padding: 0 30px;
 }
 
+=======
+>>>>>>> f7442cbc8f7e8a4813a938d2958f1c14c4445df2
 /* =Extras
 -------------------------------------------------------------- */
 .clearfix:after {

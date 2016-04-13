@@ -4640,8 +4640,8 @@ border-width:1px 0 0}
 {
 	float:left;
 	height:50px;
-	padding:15px 15px;
-	font-size:18px;
+	
+	font-size:16px;
 line-height:20px}
 
 .navbar-brand:focus,.navbar-brand:hover
@@ -4696,7 +4696,8 @@ margin-top:4px}
 
 .navbar-nav
 {
-margin:7.5px -15px}
+	margin:7.5px -15px
+}
 
 .navbar-nav>li>a
 {
