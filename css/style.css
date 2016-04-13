@@ -579,7 +579,18 @@ header.smaller nav a {
   height: 100%;
   width: 100%;
 }
-
+.container2
+{
+  width:100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top:25px;
+}
+.ctnActuPart {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 /* =Media Queries
 -------------------------------------------------------------- */
