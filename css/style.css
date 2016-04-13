@@ -563,6 +563,30 @@ header.smaller h1#logo {
 header.smaller nav a {
   color: #559ADF;
   font-size: 16px;
+  line-height:20px;
+}
+
+header.smaller .navbar-brand
+{
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 20%;
+  padding-left: 70px;
+  line-height: 50px;
+}
+.container3 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+header.smaller .container3 {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top: 0px;
 }
 /* =Extras
 -------------------------------------------------------------- */
