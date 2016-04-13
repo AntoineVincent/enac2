@@ -105,7 +105,40 @@
             </div>
 
         </section>
-         <div id="jury"></div>
+     
+
+        <!--==============section actus et participer========-->
+        <div id="actus"></div>
+        <section class="bg-avion">
+        <div class="jumbotron ctnActuPart">
+        	<div class="row">
+	        	<div class="container2 actus col-md-6">
+	        		<br/>
+	        		<h1>Actualités</h1>
+	        		<ul>
+	        			<li> actu 1 vvufzufyzvfuyvzfuy...<a> lire la suite</a></li>
+	        			<li> actu 2 fvzyvfyevfeuyv...<a> lire la suite</a></li>
+	        			<li> actu 3 dvdyudvzayvdzdzdd...<a> lire la suite</a></li>
+	        			<li> actu 4 zdzdavuvzydvauydv...<a> lire la suite</a></li>
+	        		</ul>
+	        		<br/>
+	        	</div>
+	        	<div class="container2 dates col-md-6">
+	        		<br/>
+	        			<h1>Dates</h1>
+	        		<br/>
+	        	</div>
+	        	<div class="row">
+	        		<div class="col-md-12 participer">
+	        		<h1>Participer</h1>
+	        		<p>ICI ON A PLEIN DE CONTENU DE OUF A METTRE</p>
+	        		</div>	
+	        	</div>
+	        </div>
+        </div>
+        </section>
+
+    <div id="jury"></div>
         <section class="bg-avion"> <!--============== Section Jury ================-->
         	<div class="row">
 	            <div class="container2 contain-gauche jumbotron col-md-6">
@@ -157,38 +190,6 @@
 	                <br/>
             	</div>
         	</div>
-        </section>
-
-
-        <!--==============section actus et participer========-->
-        <div id="actus"></div>
-        <section class="bg-avion">
-        <div class="jumbotron ctnActuPart">
-        	<div class="row">
-	        	<div class="container2 actus col-md-6">
-	        		<br/>
-	        		<h1>Actualités</h1>
-	        		<ul>
-	        			<li> actu 1 vvufzufyzvfuyvzfuy...<a> lire la suite</a></li>
-	        			<li> actu 2 fvzyvfyevfeuyv...<a> lire la suite</a></li>
-	        			<li> actu 3 dvdyudvzayvdzdzdd...<a> lire la suite</a></li>
-	        			<li> actu 4 zdzdavuvzydvauydv...<a> lire la suite</a></li>
-	        		</ul>
-	        		<br/>
-	        	</div>
-	        	<div class="container2 dates col-md-6">
-	        		<br/>
-	        			<h1>Dates</h1>
-	        		<br/>
-	        	</div>
-	        	<div class="row">
-	        		<div class="col-md-12 participer">
-	        		<h1>Participer</h1>
-	        		<p>ICI ON A PLEIN DE CONTENU DE OUF A METTRE</p>
-	        		</div>	
-	        	</div>
-	        </div>
-        </div>
         </section>
 
 
