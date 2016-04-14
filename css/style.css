@@ -14,10 +14,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   line-height: 1;
 }
@@ -95,8 +91,8 @@ a:hover {
 }
 
 .titre-important {
-	z-index:100;
-	}
+  z-index:100;
+}
 
 section {
   padding: 60px 0;
@@ -120,17 +116,11 @@ section.color {
   color: white;
 }
 
-section.bg-nuages {
-  background-image: url(../img/Airplane17.jpg);
-  background-attachment: fixed;
-  background-size:cover;
-}
-
-section.bg-avion{
+section.bg-avion {
 	background-image:url(../img/airplane9.jpg);
 	background-attachment:fixed;
 	background-size: cover;
-	}
+}
 
 .button {
   text-align: center;
@@ -153,10 +143,10 @@ section.bg-avion{
   color: rgba(60, 181, 249, 1);
   background-color:rgba(60, 181, 249, 0.3);
 }
+
 /*======debut slogan haut de page=======*/
 .titre_slogan
 {
-
   font-size: 40px;
   color: white;
   margin-top: 16%;
@@ -320,10 +310,10 @@ section.bg-avion2{
     flex-direction: row;
     flex-wrap: wrap;
 	-ms-flex-align: center;
-	  -webkit-align-items: center;
-	  -webkit-box-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
 
-	  align-items: center;
+	align-items: center;
   }
 
 .partenaires > * {
@@ -334,7 +324,6 @@ section.bg-avion2{
 
 .img-responsive {
   margin: 0 auto;
-
 }
 
 
@@ -382,7 +371,6 @@ section.bg-avion2{
 {
   text-align: center;
 }
-
 
 #name
 {
