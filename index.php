@@ -68,7 +68,7 @@
         <!--<div class="col-xs-12 transition">
             <div class="triangle"></div>
         </div>-->
-        <section class="bg-nuages test"> <!--============== Section Challenge ================-->
+        <section class="bg-nuage"> <!--============== Section Challenge ================-->
             <div class="container jumbotron">
                 <br />
                 <h1>Le Challenge</h1>

@@ -18,7 +18,7 @@
             <li><a href="index.php#partenaires">Nos Partenaires</a></li>
             <li><a href="./presse.php">Presse</a></li>
             <li><a href="./faq.php">FAQ</a></li>
-            <li><a href="index.php#ancrecontact" id="contact">Contact</a></li>
+            <li><button type="button" class="btncontact" data-toggle="modal" data-target="#mycontact"><a href="index.php#ancrecontact" id="contact">Contact</a></button></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>

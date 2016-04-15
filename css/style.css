@@ -121,7 +121,12 @@ section.bg-avion {
 	background-attachment:fixed;
 	background-size: cover;
 }
-
+.bg-nuage
+{
+  background-image: url(../img/Airplane17.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
 .button {
   text-align: center;
 }
@@ -584,6 +589,34 @@ header.smaller .navbar-nav
 {
   margin-left: 10%;
 }
+
+header.smaller .btncontact
+{
+  line-height:48px;
+}
+.btncontact {
+  background-color: transparent;
+  border: transparent;
+  padding-top: 1px;
+  margin-left:15px;
+}
+#contact:hover
+{
+  color:rgba(0,0,0,0.7);
+  text-decoration: none;
+}
+#contact:focus
+{
+  color:rgba(0,0,0,0.7);
+  text-decoration: none;
+}
+
+#contact
+{
+  font-weight: bolder;
+ 
+}
+
 /* =Extras
 -------------------------------------------------------------- */
 .clearfix:after {
@@ -744,7 +777,7 @@ background: url(../img/Airplane.jpg);
 }
 /* =Media Queries
 -------------------------------------------------------------- */
-@media all and (max-width: 960px) {
+@media all and (max-width: 1010px) {
 .tute {
   width: 80%;
   margin-top:25px;
@@ -754,7 +787,7 @@ background: url(../img/Airplane.jpg);
   height:10px;
 }
 .collapse {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.2);
 
 }
 .container2
@@ -773,6 +806,12 @@ background: url(../img/Airplane.jpg);
   font-size: 30px;
   margin-top: 20%;
 }
+
+header.smaller nav a {
+  color: #559ADF;
+  font-size: 16px;
+}
+
 .text-jury
 {
   font-size:10px;
