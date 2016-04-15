@@ -24,24 +24,8 @@
 <script src="js/jquery-1.12.2.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/classie.js"></script>
-<!-- Script pour rétrécir le header -->
-<script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-</script>
+<!-- Script pour faire apparaitre le header -->
+<script src="js/scriptheader.js" type="text/javascript"></script>
 </head>
 
 
@@ -230,7 +214,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel"> Formulaire de contact</h4>
           </div>
           <div class="modal-body row">
