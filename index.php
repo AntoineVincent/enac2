@@ -147,37 +147,7 @@
 	                <br/>
 	                <p align="justify">Le Jury du Challenge ENAC Alumni - Avico est composé de professionnels de l'aéronautique et de la finance et des organisateurs, des personnalités sensibles à l'innovation, à la créativité et surtout au courage et à la ténacité dont il faut faire preuve pour monter son projet entrepreneurial.</p>
 	                <p align="justify">Tout au long du Challenge, ils auront à coeur de séléctionner les idées et les business plans pour faire émerger le meilleur d'entre eux. Sur la base de critères objectifs, le Jury désignera le projet qui l'aura séduit tant par son audace que sa faisabilité.</p>
-	                <div class="row cacheimage">
-	                    <div class="col-xs-0 col-md-2"></div>
-	                    <div class="col-xs-6 col-md-2 photo1">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
-	                        <div class="tem2">
-	                            <p class="text-jury"></p>
-	                        </div>
-	                        <div class="arrow-left"></div>
-	                    </div>
-	                    <div class="col-xs-6 col-md-2 photo2">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
-	                        <div class="tem1">
-	                            <p class="text-jury"></p>
-	                        </div>
-	                        <div class="arrow-right"></div>
-	                    </div>
-	                    <div class="col-xs-6 col-md-2 photo3">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive ">
-	                        <div class="tem4">
-	                        	<p class="text-jury"></p>
-	                        </div>
-	                        <div class="arrow-left"></div>
-	                    </div>
-	                    <div class="col-xs-6 col-md-2 photo4">
-	                        <img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-	                        <div class="tem3">
-	                        	<p class="text-jury"></p>
-	                        </div>
-	                        <div class="arrow-right"></div>
-	                    </div>
-	                </div>
+
 	                <br />
 	            </div>
 	             <div class="container2 contain-droite jumbotron col-md-6">
@@ -191,29 +161,44 @@
             	</div>
         	</div>
         </section>
-        <section>
+        <section class="bg-avion">
         	<div class="row ctnImg">
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury"></div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image1"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury" id="text2"><p>le mec a gauche dit la vérité</p></div>
+                    <div class="arrow-left arrow1"></div>
 				</div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury"></div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury" id="text1">le mec à droite est un génie</div>
+                    <div class="arrow-right arrow2"></div>
         		</div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury"></div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image3"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury" id="text4">je crois pas franchement</div>
+                    <div class="arrow-left arrow3"></div>
         		</div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury"></div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image4"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+        			<div class="text-jury" id="text3"><p>on peut pas etre serieux ici?</p></div>
+                    <div class="arrow-right arrow4"></div>
         		</div>
         	</div>
         	<div class="row ctnImg">
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
-        		<div class="col-md-3 imgjury"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive"></div>
-        	</div>	
+        		<div class="col-md-3 col-xs-6 imgjury" id="image5"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+                    <div class="text-jury" id="text6">c'est beau le rouge</div>
+                    <div class="arrow-left arrow5"></div>
+                </div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image6"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+                    <div class="text-jury" id="text5">le vert c'est mieux</div>
+                    <div class="arrow-right arrow6"></div>
+                </div>
+        		<div class="col-md-3 col-xs-6 imgjury" id="image7"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+                    <div class="text-jury" id="text8">BLUE FOREVER !!</div>
+                    <div class="arrow-left arrow7"></div>
+                </div>
+        		<div  class="col-md-3 col-xs-6 imgjury" id="image8"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
+                    <div class="text-jury" id="text7">jaune c'est moche par contre</div>
+                    <div class="arrow-right arrow8"></div>
+                </div>
+        	</div>
         </section>
-
 
         <div id="partenaires"></div>
         <section class="bg-avion2"> <!--============== Section Partenaires ================-->

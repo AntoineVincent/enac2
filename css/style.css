@@ -612,38 +612,6 @@ header.smaller .navbar-nav
 }
 
 
-/* =Media Queries
--------------------------------------------------------------- */
-@media all and (max-width: 960px) {
-.tute {
-  width: 80%;
-  margin-top:25px;
-  color: white;
-}
-.margefaq {
-  height:10px;
-}
-.collapse {
-  background-color: rgba(0,0,0,0.7);
-
-}
-.container2
-{
-  width:100%;
-  margin: 0 auto;
-  padding: 0 30px;
-  margin-top:25px;
-}
-.ctnActuPart {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.titre_slogan {
-  font-size: 30px;
-  margin-top: 20%;
-}
-}
 
 /* =Footer
 -------------------------------------------------------------- */
@@ -672,58 +640,40 @@ footer {
 /*presentations personnages jury */
 
 .arrow-left {
-  width: 0;
-  height: 0;
+  height: 80px;
   border-top: 40px solid transparent;
-  border-right: 35px solid #3CB5F9;
+  border-right: 35px solid red;
   border-bottom: 40px solid transparent;
   border-left: 25px solid transparent;
-  margin: auto;
-  position: absolute;
-  margin-top: -62%;
-  margin-left: 70%;
-  z-index: 5;
+  position:absolute;
+  margin-top: -60%;
+  right:0;
+  z-index: 10;
 }
 .arrow-right
 {
+  height: 80px;
   border-top: 40px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 35px solid #3CB5F9;
-  width: 0;
-  height: 0;
-  margin: auto;
-  position: absolute;
-  margin-top: -62%;
-  margin-left: -18%;
+  border-left: 35px solid red;
+  position:absolute;
+  margin-top:-60%;
+  z-index: 10;
 }
 
-.tem1,.tem3
+.arrow5
 {
-    position: absolute;
-    height: 95%;
-    width: 85%;
-    margin-left: 0;
-    margin-top: -87%;
-    background-color: #3CB5F9;
-    box-shadow: 0 1px 5px black;
-    z-index: 100;
-}
-.tem2, .tem4
-{
-  position: absolute;
-  height: 95%;
-  width: 85%;
-  margin-left: 0px;
-  margin-top: -87%;
-  background-color: #3CB5F9;
-  box-shadow: 0 1px 5px black;
-
+  border-right:35px solid green;
 }
 
-.photo1:hover .photo2
+.arrow7
 {
-  border: solid blue 3px;
+  border-right:35px solid yellow;
+}
+.arrow8
+{
+  border-left: 35px solid blue;
 }
 
 .text-jury
@@ -731,22 +681,34 @@ footer {
   text-align: center;
   color: white;
   font-size:10px;
-  width: 100px;
-  min-height: 100px;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  z-index:100;
+  z-index: 10;
   background-color: red;
   margin-top:-100%;
+  font-size: 20px;
+  line-height: 304px;
 }
-.cacheimage
+ 
+#text5
 {
-  display: none;
+
+  background-color: green;
+}
+#text8
+{
+  background-color: blue;
+}
+#text7
+{
+  background-color: yellow;
 }
 .imgjury
 {
   padding:0px !important;
   display: inline;
+  background-color: transparent;
 }
 
 .shadow {
@@ -757,6 +719,7 @@ footer {
   margin-left: 10%;
   margin-right:10%;
 }
+
 /*fin presentations personnages jury*/
 .faq {
   height: auto;
@@ -790,4 +753,50 @@ background: url(../img/Airplane.jpg);
   height: 100%;
   width: 100%;
   margin: 0;
+}
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 960px) {
+.tute {
+  width: 80%;
+  margin-top:25px;
+  color: white;
+}
+.margefaq {
+  height:10px;
+}
+.collapse {
+  background-color: rgba(0,0,0,0.7);
+
+}
+.container2
+{
+  width:100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top:25px;
+}
+.ctnActuPart {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.titre_slogan {
+  font-size: 30px;
+  margin-top: 20%;
+}
+.text-jury
+{
+  font-size:10px;
+  line-height: 145px;
+ 
+}
+.arrow-left
+{
+  margin-top: -65%;
+}
+.arrow-right
+{
+  margin-top: -65%;
+}
 }
