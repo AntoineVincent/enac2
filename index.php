@@ -51,13 +51,14 @@
                 <p class="pslogan"> Faites décoller vos idées novatrices</p>
             </div>
         </div>
-            <div class="fondgris">
+
                 <video autoplay loop id="bgvid">
                                     <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
-                    <source src ="video/airplanewingcloudysky.avi" type="video/avi">
+
                 </video>
 
-            </div>
+            
+            <div class="fondgris"></div>
         <div class="row flotteur">
             <div class="col-md-12 centrer">
                 <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
@@ -89,7 +90,7 @@
             </div>
 
         </section>
-     
+
 
         <!--==============section actus et participer========-->
         <div id="actus"></div>
@@ -116,7 +117,7 @@
 	        		<div class="col-md-12 participer">
 	        		<h1>Participer</h1>
 	        		<p>ICI ON A PLEIN DE CONTENU DE OUF A METTRE</p>
-	        		</div>	
+	        		</div>
 	        	</div>
 	        </div>
         </div>
@@ -186,7 +187,7 @@
 
         <div id="partenaires"></div>
         <section class="bg-avion2"> <!--============== Section Partenaires ================-->
-            <div class="fond-couleur"> 
+            <div class="fond-couleur">
                 <h1 class="titre-centre">Nos partenaires</h1>
                 <div class="partenaires">
                     <div class="partenaire1"><img src="img/partenaires/aerobuzz.png" alt="logo partenaire" class="img-responsive"></div>
@@ -208,7 +209,7 @@
 
 <!-- #main -->
 <!--pop up contact -->
-  
+
 <!-- Modal -->
     <div class="modal fade" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
