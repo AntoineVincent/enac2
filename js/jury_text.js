@@ -1,107 +1,85 @@
 // Testimonials function
 $(document).ready(function(){
-
-	var holdHover = '';
-	$('.arrow-left').hide();
 	$('.arrow-right').hide();
-	$('.tem1').hide();
-	$('.tem2').hide();
-	$('.tem3').hide();
-	$('.tem4').hide();
+	$('.arrow-left').hide();
+	$('#text1').hide();
+	$('#text2').hide();
+	$('#text3').hide();
+	$('#text4').hide();
+	$('#text5').hide();
+	$('#text6').hide();
+	$('#text7').hide();
+	$('#text8').hide();
 
-	$('.photo1').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo1').find('.arrow-left').show();
-	    $('.tem1').show();
-	  }, 200);
+	$('#image1').mouseenter(function(){
+		$('#text1').show();
+		$('.arrow1').show();
 	});
-	  $('.photo1').mouseleave(function() {
-	    $('.tem1').hide();
-	    $( this ).find('.arrow-left').hide();
-	    clearInterval(holdHover);
-  	});
+	$('#image1').mouseleave(function(){
+		$('#text1').hide();
+		$('.arrow1').hide();
+	})
 
-	$('.photo2').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo2').find('.arrow-right').show();
-	    $('.tem2').show();
-	  }, 200);
+	$('#image2').mouseenter(function(){
+		$('#text2').show();
+		$('.arrow2').show();
 	});
-	  $('.photo2').mouseleave(function() {
-	    $('.tem2').hide();
-	    $( this ).find('.arrow-right').hide();
-	    clearInterval(holdHover);
-  	});
+	$('#image2').mouseleave(function(){
+		$('#text2').hide();
+		$('.arrow2').hide();
+	})
 
-	$('.photo3').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo3').find('.arrow-left').show();
-	    $('.tem3').show();
-	  }, 200);
+	$('#image3').mouseenter(function(){
+		$('#text3').show();
+		$('.arrow3').show();
 	});
-	  $('.photo3').mouseleave(function() {
-	    $('.tem3').hide();
-	    $( this ).find('.arrow-left').hide();
-	    clearInterval(holdHover);
-  	});
+	$('#image3').mouseleave(function(){
+		$('#text3').hide();
+		$('.arrow3').hide();
+	})
 
-	$('.photo4').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo4').find('.arrow-right').show();
-	    $('.tem4').show();
-	  }, 200);
+	$('#image4').mouseenter(function(){
+		$('#text4').show();
+		$('.arrow4').show();
 	});
-	$('.photo4').mouseleave(function() {
-		$('.tem4').hide();
-		$( this ).find('.arrow-right').hide();
-		clearInterval(holdHover);
-	});
-	$('.photo5').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo5').find('.arrow-left').show();
-	    $('.tem5').show();
-	  }, 200);
-	});
-	$('.photo5').mouseleave(function() {
-		$('.tem5').hide();
-		$( this ).find('.arrow-left').hide();
-		clearInterval(holdHover);
-	});
+	$('#image4').mouseleave(function(){
+		$('#text4').hide();
+		$('.arrow4').hide();
+	})
 
-	$('.photo6').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo6').find('.arrow-right').show();
-	    $('.tem6').show();
-	  }, 200);
+	$('#image5').mouseenter(function(){
+		$('#text5').show();
+		$('.arrow5').show();
 	});
-	$('.photo6').mouseleave(function() {
-		$('.tem6').hide();
-		$( this ).find('.arrow-right').hide();
-		clearInterval(holdHover);
-	});
+	$('#image5').mouseleave(function(){
+		$('#text5').hide();
+		$('.arrow5').hide();
+	})
 
-	$('.photo7').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo7').find('.arrow-left').show();
-	    $('.tem7').show();
-	  }, 200);
+	$('#image6').mouseenter(function(){
+		$('#text6').show();
+		$('.arrow6').show();
 	});
-	$('.photo7').mouseleave(function() {
-		$('.tem7').hide();
-		$( this ).find('.arrow-left').hide();
-		clearInterval(holdHover);
-	});
+	$('#image6').mouseleave(function(){
+		$('#text6').hide();
+		$('.arrow6').hide();
+	})
 
-	$('.photo8').mouseenter(function() {
-		holdHover =  setInterval(function() {
-	    $('.photo8').find('.arrow-right').show();
-	    $('.tem8').show();
-	  }, 200);
+	$('#image7').mouseenter(function(){
+		$('#text7').show();
+		$('.arrow7').show();
 	});
-	$('.photo8').mouseleave(function() {
-		$('.tem8').hide();
-		$( this ).find('.arrow-right').hide();
-		clearInterval(holdHover);
-	});
+	$('#image7').mouseleave(function(){
+		$('#text7').hide();
+		$('.arrow7').hide();
+	})
 
+	$('#image8').mouseenter(function(){
+		$('#text8').show();
+		$('.arrow8').show();
+	});
+	$('#image8').mouseleave(function(){
+		$('#text8').hide();
+		$('.arrow8').hide();
+	})
 });

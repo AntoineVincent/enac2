@@ -14,10 +14,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   line-height: 1;
 }
@@ -95,8 +91,8 @@ a:hover {
 }
 
 .titre-important {
-	z-index:100;
-	}
+  z-index:100;
+}
 
 section {
   padding: 60px 0;
@@ -120,18 +116,17 @@ section.color {
   color: white;
 }
 
-section.bg-nuages {
-  background-image: url(../img/Airplane17.jpg);
-  background-attachment: fixed;
-  background-size:cover;
-}
-
-section.bg-avion{
+section.bg-avion {
 	background-image:url(../img/airplane9.jpg);
 	background-attachment:fixed;
 	background-size: cover;
-	}
-
+}
+.bg-nuage
+{
+  background-image: url(../img/Airplane17.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
 .button {
   text-align: center;
 }
@@ -153,17 +148,19 @@ section.bg-avion{
   color: rgba(60, 181, 249, 1);
   background-color:rgba(60, 181, 249, 0.3);
 }
+
 /*======debut slogan haut de page=======*/
 .titre_slogan
 {
-
   font-size: 40px;
   color: white;
   margin-top: 16%;
+  z-index: 10002;
 }
 .ptitre
 {
   font-weight:bold;
+  z-index: 10001;
 }
 
 .pslogan
@@ -217,6 +214,7 @@ section.bg-avion{
 {
   margin-left: 10%;
   margin-right:5%;
+  opacity:0.9;
 }
 
 .ctnActuPart
@@ -253,8 +251,9 @@ margin-left:5%;
 
 .fondgris
 {
-  background-color: rgba(80, 80, 80, 0.8);
-  position: fixed;
+
+    background: url(../img/overlay.png);
+    position: fixed;
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -266,7 +265,8 @@ margin-left:5%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
-  z-index: 500;
+   z-index: 10000;
+   opacity: 0.6;
 }
 
 video#bgvid {
@@ -282,6 +282,7 @@ video#bgvid {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
+    z-index: 1;
 }
 
 .videobg {
@@ -320,10 +321,10 @@ section.bg-avion2{
     flex-direction: row;
     flex-wrap: wrap;
 	-ms-flex-align: center;
-	  -webkit-align-items: center;
-	  -webkit-box-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
 
-	  align-items: center;
+	align-items: center;
   }
 
 .partenaires > * {
@@ -334,7 +335,6 @@ section.bg-avion2{
 
 .img-responsive {
   margin: 0 auto;
-
 }
 
 
@@ -382,7 +382,6 @@ section.bg-avion2{
 {
   text-align: center;
 }
-
 
 #name
 {
@@ -468,7 +467,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 10003;
   background-color: transparent;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
@@ -486,6 +485,10 @@ header {
     color:transparent !important;
     line-height: 27px;
     font-weight: bolder;
+}
+.navbar-brand:hover
+{
+  cursor: default;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -543,10 +546,10 @@ header nav a:hover {
 header.smaller > .navbar-default {
     background-color: white;
     border-color: white;
-} 
+}
 
 header.smaller nav a {
-    color: #559ADF !important;    
+    color: #559ADF !important;
 }
 
 header.smaller h1#logo {
@@ -588,6 +591,38 @@ header.smaller .container3 {
   padding: 0 30px;
   margin-top: 0px;
 }
+header.smaller .navbar-nav
+{
+  margin-left: 10%;
+}
+
+header.smaller .btncontact
+{
+  line-height:48px;
+}
+.btncontact {
+  background-color: transparent;
+  border: transparent;
+  padding-top: 1px;
+  margin-left:15px;
+}
+#contact:hover
+{
+  color:rgba(0,0,0,0.7);
+  text-decoration: none;
+}
+#contact:focus
+{
+  color:rgba(0,0,0,0.7);
+  text-decoration: none;
+}
+
+#contact
+{
+  font-weight: bolder;
+
+}
+
 /* =Extras
 -------------------------------------------------------------- */
 .clearfix:after {
@@ -604,38 +639,6 @@ header.smaller .container3 {
 }
 
 
-/* =Media Queries
--------------------------------------------------------------- */
-@media all and (max-width: 960px) {
-.tute {
-  width: 80%;
-  margin-top:25px;
-  color: white;
-}
-.margefaq {
-  height:10px;
-}
-.collapse {
-  background-color: rgba(0,0,0,0.7);
-
-}
-.container2
-{
-  width:100%;
-  margin: 0 auto;
-  padding: 0 30px;
-  margin-top:25px;
-}
-.ctnActuPart {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-.titre_slogan {
-  font-size: 30px;
-  margin-top: 20%;
-}
-}
 
 /* =Footer
 -------------------------------------------------------------- */
@@ -656,58 +659,40 @@ footer {
 /*presentations personnages jury */
 
 .arrow-left {
-  width: 0;
-  height: 0;
+  height: 80px;
   border-top: 40px solid transparent;
-  border-right: 35px solid #3CB5F9;
+  border-right: 35px solid red;
   border-bottom: 40px solid transparent;
   border-left: 25px solid transparent;
-  margin: auto;
-  position: absolute;
-  margin-top: -62%;
-  margin-left: 70%;
-  z-index: 5;
+  position:absolute;
+  margin-top: -60%;
+  right:0;
+  z-index: 10;
 }
 .arrow-right
 {
+  height: 80px;
   border-top: 40px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 35px solid #3CB5F9;
-  width: 0;
-  height: 0;
-  margin: auto;
-  position: absolute;
-  margin-top: -62%;
-  margin-left: -18%;
+  border-left: 35px solid red;
+  position:absolute;
+  margin-top:-60%;
+  z-index: 10;
 }
 
-.tem1,.tem3
+.arrow5
 {
-    position: absolute;
-    height: 95%;
-    width: 85%;
-    margin-left: 0;
-    margin-top: -87%;
-    background-color: #3CB5F9;
-    box-shadow: 0 1px 5px black;
-    z-index: 100;
-}
-.tem2, .tem4
-{
-  position: absolute;
-  height: 95%;
-  width: 85%;
-  margin-left: 0px;
-  margin-top: -87%;
-  background-color: #3CB5F9;
-  box-shadow: 0 1px 5px black;
-
+  border-right:35px solid green;
 }
 
-.photo1:hover .photo2
+.arrow7
 {
-  border: solid blue 3px;
+  border-right:35px solid yellow;
+}
+.arrow8
+{
+  border-left: 35px solid blue;
 }
 
 .text-jury
@@ -715,22 +700,34 @@ footer {
   text-align: center;
   color: white;
   font-size:10px;
-  width: 100px;
-  min-height: 100px;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   position: absolute;
-  z-index:100;
+  z-index: 10;
   background-color: red;
   margin-top:-100%;
+  font-size: 20px;
+  line-height: 304px;
 }
-.cacheimage
+
+#text5
 {
-  display: none;
+
+  background-color: green;
+}
+#text8
+{
+  background-color: blue;
+}
+#text7
+{
+  background-color: yellow;
 }
 .imgjury
 {
   padding:0px !important;
   display: inline;
+  background-color: transparent;
 }
 
 .shadow {
@@ -741,6 +738,7 @@ footer {
   margin-left: 10%;
   margin-right:10%;
 }
+
 /*fin presentations personnages jury*/
 .faq {
   height: auto;
@@ -774,4 +772,56 @@ background: url(../img/Airplane.jpg);
   height: 100%;
   width: 100%;
   margin: 0;
+}
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 1010px) {
+.tute {
+  width: 80%;
+  margin-top:25px;
+  color: white;
+}
+.margefaq {
+  height:10px;
+}
+.collapse {
+  background-color: rgba(0,0,0,0.2);
+
+}
+.container2
+{
+  width:100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  margin-top:25px;
+}
+.ctnActuPart {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.titre_slogan {
+  font-size: 30px;
+  margin-top: 20%;
+}
+
+header.smaller nav a {
+  color: #559ADF;
+  font-size: 16px;
+}
+
+.text-jury
+{
+  font-size:10px;
+  line-height: 145px;
+
+}
+.arrow-left
+{
+  margin-top: -65%;
+}
+.arrow-right
+{
+  margin-top: -65%;
+}
 }

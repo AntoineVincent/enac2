@@ -45,7 +45,7 @@
 
 <header>
     <?php
-        include 'header2.php';
+        include 'header.php';
     ?>
 </header><!-- /header -->
 <div class="fontfaq">
