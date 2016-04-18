@@ -149,37 +149,37 @@
         <section class="bg-avion">
         	<div class="row ctnImg">
         		<div class="col-md-3 col-xs-6 imgjury" id="image1"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury" id="text2"><p>le mec a gauche dit la vérité</p></div>
+        			<div class="text-jury" id="text2"><p>commentaire</p></div>
                     <div class="arrow-left arrow1"></div>
 				</div>
         		<div class="col-md-3 col-xs-6 imgjury" id="image2"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury" id="text1">le mec à droite est un génie</div>
+        			<div class="text-jury" id="text1">commentaire</div>
                     <div class="arrow-right arrow2"></div>
         		</div>
         		<div class="col-md-3 col-xs-6 imgjury" id="image3"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury" id="text4">je crois pas franchement</div>
+        			<div class="text-jury" id="text4">commentaire</div>
                     <div class="arrow-left arrow3"></div>
         		</div>
         		<div class="col-md-3 col-xs-6 imgjury" id="image4"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-        			<div class="text-jury" id="text3"><p>on peut pas etre serieux ici?</p></div>
+        			<div class="text-jury" id="text3"><p>commentaire</p></div>
                     <div class="arrow-right arrow4"></div>
         		</div>
         	</div>
         	<div class="row ctnImg">
         		<div class="col-md-3 col-xs-6 imgjury" id="image5"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-                    <div class="text-jury" id="text6">c'est beau le rouge</div>
+                    <div class="text-jury" id="text6">commentaire</div>
                     <div class="arrow-left arrow5"></div>
                 </div>
         		<div class="col-md-3 col-xs-6 imgjury" id="image6"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-                    <div class="text-jury" id="text5">le vert c'est mieux</div>
+                    <div class="text-jury" id="text5">commentaire</div>
                     <div class="arrow-right arrow6"></div>
                 </div>
         		<div class="col-md-3 col-xs-6 imgjury" id="image7"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-                    <div class="text-jury" id="text8">BLUE FOREVER !!</div>
+                    <div class="text-jury" id="text8">commentaire</div>
                     <div class="arrow-left arrow7"></div>
                 </div>
         		<div  class="col-md-3 col-xs-6 imgjury" id="image8"><img src="img/patrickbaudis.jpg" alt="jury1" class="shadow img-responsive">
-                    <div class="text-jury" id="text7">jaune c'est moche par contre</div>
+                    <div class="text-jury" id="text7">commentaire</div>
                     <div class="arrow-right arrow8"></div>
                 </div>
         	</div>
