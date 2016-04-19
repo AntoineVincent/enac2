@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
 	$('#bgvid').hide();
 	$('.fondgris').hide();
 	 window.onload = function(){
@@ -6,7 +6,7 @@ $(document).ready(function(){
 	  	{
 	    	$("#bgvid").fadeIn('slow', 0);
 	    	$('.fondgris').fadeIn('slow', 0);
-	  	}, 1000);
+	  	}, 0);
 	};
 	$(document).scroll(function(){
 		$('#bgvid, .fondgris').fadeOut('slow', 0);
@@ -34,5 +34,3 @@ $(document).ready(function(){
 	$('#commentaire').click(function(){
 		$(this).select();
 	});
-
-});

@@ -101,10 +101,10 @@
 	        		<br/>
 	        		<h1>Actualités</h1>
 	        		<ul>
-	        			<li> actu 1 vvufzufyzvfuyvzfuy...<a> lire la suite</a></li>
-	        			<li> actu 2 fvzyvfyevfeuyv...<a> lire la suite</a></li>
-	        			<li> actu 3 dvdyudvzayvdzdzdd...<a> lire la suite</a></li>
-	        			<li> actu 4 zdzdavuvzydvauydv...<a> lire la suite</a></li>
+	        			<li> actu 1 </li>
+	        			<li> actu 2 </li>
+	        			<li> actu 3 </li>
+	        			<li> actu 4 </li>
 	        		</ul>
 	        		<br/>
 	        	</div>
@@ -211,7 +211,7 @@
 <!--pop up contact -->
 
 <!-- Modal -->
-    <div class="modal fade" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade ongletcontact" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -219,27 +219,15 @@
             <h4 class="modal-title" id="myModalLabel"> Formulaire de contact</h4>
           </div>
           <div class="modal-body row">
-             <div class="col-md-4 formulaire1">
-                    <br/>
-                    <p class="txtcontact">ici le texte du contact</p>
-                    <p class="txtcontact">adresse</p>
-                    <p class="txtcontact">autres coordonnées</p>
-                </div>
+             <!-- Do not change the code! -->
+<a id="foxyform_embed_link_169327" href="http://fr.foxyform.com/">foxyform</a>
 
-                <div class="col-md-8 formulaire2">
-                    <form method="post" action="./contact.php">
-                        <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
-                        <br/>
-                        <input name="email" type="text" id="email" class="inputform" value="Email"></input>
-                        <br/>
-                        <textarea name="commentaire" id="commentaire">Message</textarea>
-                        <br/>
-                    </form>
-                </div>
+<!-- Do not change the code! -->
+
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-            <button type="button" class="btn btn-primary btnfermer">Envoyer Message</button>
+           
           </div>
         </div>
       </div>
@@ -259,5 +247,13 @@
 <script type="text/javascript" src="./js/script.js"></script>
 <script type="text/javascript" src="./js/jury_text.js"></script>
 <script type="text/javascript" src="./js/test.js"></script>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://fr.foxyform.com/js.php?id=169327&sec_hash=f806675ca2a&width=500px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script>
 </body>
 </html>
