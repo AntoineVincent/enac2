@@ -21,67 +21,40 @@
 
 <!-- js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-<script src="js/jquery-1.12.2.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/classie.js"></script>
-<!-- Script pour faire apparaitre le header -->
-<script src="js/scriptheader.js" type="text/javascript"></script>
+<script src="js/jquery-1.12.2.js"></script> <!-- Librairie Jquery -->
+<script src="js/bootstrap.min.js"></script> <!-- Script Bootsrap -->
+<script src="js/classie.js"></script><!-- Script pour ajouter une classe facilement au CSS via Jquery -->
+<script src="js/scriptheader.js" type="text/javascript"></script><!-- Script pour faire apparaitre le header -->
 </head>
 
 
 
 <body>
-<div class="container-fluid">
-<div id="wrapper">
-
-<header>
-    <?php
-        include 'header.php';
-    ?>
-</header><!-- /header -->
-
-
-
-
-    <div id="content">
-      <div class="img-partenaires">
-        <div class="row">
-            <div class="col-md-6 col-xs-12 titre_slogan">
-                <p class="ptitre">CHALLENGE ENAC ALLUMNI AVICO</p>
-                <p class="pslogan"> Faites décoller vos idées novatrices</p>
-            </div>
-        </div>
-        <video autoplay loop id="bgvid">
-            <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
-            <source src="video/TWO.webm" type="video/webm">
-        </video>
-        <div class="fondgris"></div>
-        <div class="row flotteur">
-            <div class="col-md-12 centrer">
-                <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
-            </div>
-        </div>
-      </div>
-      <div id="challenge"></div>
-        <!--<div class="col-xs-12 transition">
-            <div class="triangle"></div>
-        </div>-->
-        <section class="bg-nuage"> <!--============== Section Challenge ================-->
-            <div class="container jumbotron">
-                <br />
-                <h1>Le Challenge</h1>
-                <br />
-                <p align="justify">Le Challenge ENAC Alumni – Avico est un concours de création d’entreprise dans le domaine aéronautique. Il est porté par ENAC Alumni avec le soutien d’Avico, son partenaire fondateur.</p>
-
-                <p align="justify">La 1ère édition du Challenge fut lancée en 2014, et devant le succès du Challenge et la qualité des projets reçus, les organisateurs ont décidé de lancer une 2nde édition du Challenge ENAC Alumni Avico en 2015. L’objectif commun d’ENAC Alumni et d’Avico est de récompenser les meilleurs projets innovants chaque année, de devenir un véritable laboratoire d’idées connu et reconnu.</p>
-
-                <p align="justify">Nous souhaitons faire émerger des idées novatrices dans le domaine de l’aéronautique et stimuler la fibre entrepreneuriale chez les jeunes, moins jeunes, expérimentés ou néophytes qui se lanceraient dans l’aventure du Challenge.</p>
-
-                <p align="justify">Le Challenge ENAC Alumni Avico est ouvert à tous à partir de 18 ans, sans distinction de formation, de parcours, ou de nationalité. Les Challengers peuvent se présenter seuls ou par équipe. Le jury aura à cœur de sélectionner et promouvoir le meilleur projet, les dossiers présentés par des anciens élèves de l’ENAC ne feront l’objet d’aucune préférence.</p>
-
-                <p>Les Challengers seront également invités à participer au « coup de cœur du web », un concours dans le concours qui permet d’exposer son projet au grand public et de bénéficier du support d’une plateforme de crowdfunding.</p>
-                <div class="button">
-                    <a href="#" class="btn-medium">Je participe</a>
+    <div class="container-fluid">
+        <div id="wrapper">
+            <header>
+                <?php
+                    include 'header.php';
+                ?>
+            </header><!-- /header -->
+            <div id="content">
+                <div class="img-partenaires">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12 titre_slogan">
+                            <p class="ptitre">CHALLENGE ENAC ALLUMNI AVICO</p>
+                            <p class="pslogan"> Faites décoller vos idées novatrices</p>
+                        </div>
+                    </div>
+                    <video autoplay loop id="bgvid">
+                        <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+                        <source src="video/TWO.webm" type="video/webm">
+                    </video>
+                    <div class="fondgris"></div>
+                    <div class="row flotteur">
+                        <div class="col-md-12 centrer">
+                            <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <br />
             </div>
