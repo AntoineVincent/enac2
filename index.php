@@ -12,7 +12,6 @@
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100|Roboto:700' rel='stylesheet' type='text/css'>
-<link href="./BebasNeue_Regular.ttf" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -93,6 +92,7 @@
 
 
         <!--==============section actus et participer========-->
+        <div id=""></div>
         <div id="actus"></div>
         <section class="bg-avion">
         <div class="jumbotron ctnActuPart">
@@ -220,7 +220,7 @@
           </div>
           <div class="modal-body row">
              <!-- Do not change the code! -->
-<a id="foxyform_embed_link_169327" href="http://fr.foxyform.com/">foxyform</a>
+<a id="foxyform_embed_link_169327" href="http://fr.foxyform.com/">contact</a>
 
 <!-- Do not change the code! -->
 
@@ -243,12 +243,11 @@
 </div><!-- /#wrapper -->
 </div>
 
-<script type="text/javascript" src="js/ancres.js"></script>
+<script type="text/javascript" src="./js/ancres.js"></script>
 <script type="text/javascript" src="./js/script.js"></script>
 <script type="text/javascript" src="./js/jury_text.js"></script>
-<script type="text/javascript" src="./js/test.js"></script>
 <script type="text/javascript">
-(function(d, t){
+$(document).ready(function(d, t){
    var g = d.createElement(t),
        s = d.getElementsByTagName(t)[0];
    g.src = "http://fr.foxyform.com/js.php?id=169327&sec_hash=f806675ca2a&width=500px";
