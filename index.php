@@ -51,14 +51,11 @@
                 <p class="pslogan"> Faites décoller vos idées novatrices</p>
             </div>
         </div>
-
-                <video autoplay loop id="bgvid">
-                                    <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
-
-                </video>
-
-            
-            <div class="fondgris"></div>
+        <video autoplay loop id="bgvid">
+            <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
+            <source src="video/TWO.webm" type="video/webm">
+        </video>
+        <div class="fondgris"></div>
         <div class="row flotteur">
             <div class="col-md-12 centrer">
                 <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
