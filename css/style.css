@@ -208,14 +208,14 @@ section.bg-avion {
 {
   margin-left:5%;
   margin-right:10%;
+  height: 646px;
 }
 
 .contain-gauche
 {
   margin-left: 10%;
   margin-right:5%;
-  padding-bottom: 15px;
-
+  height: 646px;
 }
 
 .ctnActuPart
@@ -856,4 +856,23 @@ header.smaller nav a {
 {
   left: 40%;
 }
+.contain-droite
+{
+	height: auto;
+}
+.contain-gauche
+{
+	height: auto;
+}
+}
+@media (min-width: 1010px) and (max-width: 1370px)
+{
+	.contain-gauche
+	{
+		height: 1000px;
+	}
+	.contain-droite
+	{
+		height: 1000px;
+	}
 }
