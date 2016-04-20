@@ -55,7 +55,6 @@
                         </div>
                     </div>
                 </div>
-                <br />
             </div>
                 <div id="challenge"></div>
                 <section class="bg-nuage"> <!--============== Section Challenge ================-->
