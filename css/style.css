@@ -441,7 +441,7 @@ section.bg-avion2{
 .flotteur {
 	position: absolute;
 	bottom: 10%;
-	left: 45%;
+	left: 47%;
 }
 
 .none {
@@ -804,5 +804,9 @@ header.smaller nav a {
 .arrow-right
 {
   margin-top: -65%;
+}
+.flotteur
+{
+  left: 40%;
 }
 }
