@@ -338,6 +338,55 @@ section.bg-avion2{
   margin: 0 auto;
 }
 
+.limite {
+    overflow: hidden;
+    background-image:url(../img/airplane9.jpg);
+	background-attachment:fixed;
+	background-size: cover;
+}
+
+.avion {
+    position: relative;
+	width:164px;
+	height:164px;
+	margin-left:-400px;
+	top:120px;
+	bottom:0px;
+	left:1920px;
+	z-index:4;
+	-moz-animation:translate 5s linear infinite;
+	-webkit-animation:translate 5s linear infinite;
+	background-image: url('../img/avion.png');
+	background-repeat: no-repeat;
+ }
+ @-moz-keyframes translate{
+ 	from{left:106px;}
+	 10%{top:99px;}
+ 	20%{top:93px;}
+ 	30%{top:89px;}
+ 	40%{top:87px;}
+ 	50%{top:86px;}
+ 	60%{top:87px;}
+	 70%{top:89px;}
+ 	80%{top:93px;}
+	 90%{top:99px;}
+	 to{top:106px;}
+ }
+ @-webkit-keyframes translate {
+     from{left:106px;}
+ 	 10%{top:99px;}
+  	20%{top:93px;}
+  	30%{top:89px;}
+  	40%{top:87px;}
+  	50%{top:86px;}
+  	60%{top:87px;}
+ 	 70%{top:89px;}
+  	80%{top:93px;}
+ 	 90%{top:99px;}
+ 	 to{top:106px;}
+ }
+
+
 
 /* debut de l'onglet contact*/
 .conteneurcontact

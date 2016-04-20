@@ -109,8 +109,10 @@
         	        </div>
                 </div>
                 </section>
-
-            <div id="jury"></div>
+                <div class="limite">
+                    <div class=avion></div>
+                </div>
+                <div id="jury"></div>
                 <section class="bg-avion"> <!--============== Section Jury ================-->
                 	<div class="row">
         	            <div class="container2 contain-gauche jumbotron col-md-6">
