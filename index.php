@@ -37,19 +37,19 @@
                 ?>
             </header><!-- /header -->
             <div id="content">
-                <div class="img-partenaires">
+                <div class="avion-header"> <!-- Image de l'avion pleine page -->
                     <div class="row">
                         <div class="col-md-6 col-xs-12 titre_slogan">
                             <p class="ptitre">CHALLENGE ENAC ALLUMNI AVICO</p>
                             <p class="pslogan"> Faites décoller vos idées novatrices</p>
                         </div>
                     </div>
-                    <video autoplay loop id="bgvid">
+                    <video autoplay loop id="bgvid"> <!-- Vidéo -->
                         <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
                         <source src="video/TWO.webm" type="video/webm">
                     </video>
-                    <div class="fondgris"></div>
-                    <div class="row flotteur">
+                    <div class="fondgris"></div> <!-- Overlay Vidéo -->
+                    <div class="row flotteur"> <!-- Flèche pour scroller à la prochaine section -->
                         <div class="col-md-12 centrer">
                             <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
                         </div>
@@ -57,7 +57,7 @@
                 </div>
             </div>
                 <div id="challenge"></div>
-                <section class="bg-nuage"> <!--============== Section Challenge ================-->
+                <section class="bg-avion3"> <!--============== Section Challenge ================-->
                     <div class="container jumbotron">
                         <br />
                         <h1>Le Challenge</h1>
