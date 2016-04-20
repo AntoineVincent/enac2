@@ -99,7 +99,7 @@ Cras et turpis iaculis, viverra massa eget, eleifend libero. Curabitur accumsan 
 
 </div><!-- /#wrapper -->
 
-<script type="text/javascript" src="js/ancres.js"></script>
+
 <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>

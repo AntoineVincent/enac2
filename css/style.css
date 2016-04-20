@@ -214,7 +214,8 @@ section.bg-avion {
 {
   margin-left: 10%;
   margin-right:5%;
-  opacity:0.9;
+  padding-bottom: 15px;
+
 }
 
 .ctnActuPart
@@ -361,6 +362,12 @@ section.bg-avion2{
   margin-top:-500px;
   padding-top:20px;
 }
+
+.ongletcontact
+{
+  z-index: 15000;
+}
+
 .modal-header
 {
   background-image: url(../img/Airplane.jpg);
@@ -434,7 +441,7 @@ section.bg-avion2{
 .flotteur {
 	position: absolute;
 	bottom: 10%;
-	left: 50%;
+	left: 45%;
 }
 
 .none {
@@ -661,7 +668,7 @@ footer {
 .arrow-left {
   height: 80px;
   border-top: 40px solid transparent;
-  border-right: 35px solid red;
+  border-right: 35px solid rgb(60, 181, 249);
   border-bottom: 40px solid transparent;
   border-left: 25px solid transparent;
   position:absolute;
@@ -675,25 +682,12 @@ footer {
   border-top: 40px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 40px solid transparent;
-  border-left: 35px solid red;
+  border-left: 35px solid rgb(60, 181, 249);
   position:absolute;
   margin-top:-60%;
   z-index: 10;
 }
 
-.arrow5
-{
-  border-right:35px solid green;
-}
-
-.arrow7
-{
-  border-right:35px solid yellow;
-}
-.arrow8
-{
-  border-left: 35px solid blue;
-}
 
 .text-jury
 {
@@ -704,25 +698,12 @@ footer {
   height: 100%;
   position: absolute;
   z-index: 10;
-  background-color: red;
+  background-color: rgb(60, 181, 249);
   margin-top:-100%;
   font-size: 20px;
   line-height: 304px;
 }
 
-#text5
-{
-
-  background-color: green;
-}
-#text8
-{
-  background-color: blue;
-}
-#text7
-{
-  background-color: yellow;
-}
 .imgjury
 {
   padding:0px !important;

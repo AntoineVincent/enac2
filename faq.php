@@ -122,7 +122,7 @@ Ce qu’il faut savoir de manière générale, c’est que si vous ne souhaitez 
 
 </div><!-- /#wrapper -->
 
-<script type="text/javascript" src="js/ancres.js"></script>
+
 <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
