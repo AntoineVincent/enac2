@@ -121,14 +121,16 @@ section.bg-avion {
 	background-attachment:fixed;
 	background-size: cover;
 }
-.bg-nuage
-{
+
+.bg-avion3 {
   background-image: url(../img/Airplane17.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
+
 .button {
   text-align: center;
+  margin-top: -20px;
 }
 
 .btn-medium {
@@ -170,7 +172,7 @@ section.bg-avion {
 }
 /*======fin slogan haut de page=======*/
 
-.img-partenaires {
+.avion-header {
 	background: url(../img/airplane9.jpg) no-repeat fixed;
 	background-size: cover;
   height: 100vh;
@@ -289,7 +291,6 @@ video#bgvid {
 .videobg {
 	height:650px;
 	}
-
 
 section.bg-avion2{
 	background-image:url(../img/airplane9.jpg);

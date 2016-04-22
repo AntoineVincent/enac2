@@ -37,19 +37,19 @@
                 ?>
             </header><!-- /header -->
             <div id="content">
-                <div class="img-partenaires">
+                <div class="avion-header"> <!-- Image de l'avion pleine page -->
                     <div class="row">
                         <div class="col-md-6 col-xs-12 titre_slogan">
                             <p class="ptitre">CHALLENGE ENAC ALLUMNI AVICO</p>
                             <p class="pslogan"> Faites décoller vos idées novatrices</p>
                         </div>
                     </div>
-                    <video autoplay loop id="bgvid">
+                    <video autoplay loop id="bgvid"> <!-- Vidéo -->
                         <source src="video/airplanewingcloudysky2.mp4" type="video/mp4">
                         <source src="video/TWO.webm" type="video/webm">
                     </video>
-                    <div class="fondgris"></div>
-                    <div class="row flotteur">
+                    <div class="fondgris"></div> <!-- Overlay Vidéo -->
+                    <div class="row flotteur"> <!-- Flèche pour scroller à la prochaine section -->
                         <div class="col-md-12 centrer">
                             <a href="#challenge" class="none"><i class="fa fa-angle-down fa-5x shake-vertical shake-constant shake-constant--hover"></i></a>
                         </div>
@@ -57,7 +57,7 @@
                 </div>
             </div>
                 <div id="challenge"></div>
-                <section class="bg-nuage"> <!--============== Section Challenge ================-->
+                <section class="bg-avion3"> <!--============== Section Challenge ================-->
                     <div class="container jumbotron">
                         <br />
                         <h1>Le Challenge</h1>
@@ -71,6 +71,7 @@
                         <p align="justify">Le Challenge ENAC Alumni Avico est ouvert à tous à partir de 18 ans, sans distinction de formation, de parcours, ou de nationalité. Les Challengers peuvent se présenter seuls ou par équipe. Le jury aura à cœur de sélectionner et promouvoir le meilleur projet, les dossiers présentés par des anciens élèves de l’ENAC ne feront l’objet d’aucune préférence.</p>
 
                         <p>Les Challengers seront également invités à participer au « coup de cœur du web », un concours dans le concours qui permet d’exposer son projet au grand public et de bénéficier du support d’une plateforme de crowdfunding.</p>
+                        <br />
                         <div class="button">
                             <a href="#" class="btn-medium">Je participe</a>
                         </div>
