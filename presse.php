@@ -89,6 +89,25 @@ Cras et turpis iaculis, viverra massa eget, eleifend libero. Curabitur accumsan 
             <div class="col-md-2 bordures"></div>
         </div>
     <div id="ancrecontact"></div>
+       <div class="modal fade ongletcontact" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                             <h4 class="modal-title" id="myModalLabel"> Formulaire de contact</h4>
+                         </div>
+                         <div class="modal-body row">
+                         <!-- Do not change the code! -->
+                         <a id="foxyform_embed_link_169327" href="http://fr.foxyform.com/">foxyform</a>
+                         <!-- Do not change the code! -->
+                         </div>
+                         <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+
+                         </div>
+                    </div>
+                </div>
+            </div>
 <footer>
     <?php
         include 'footer.php';
@@ -101,5 +120,13 @@ Cras et turpis iaculis, viverra massa eget, eleifend libero. Curabitur accumsan 
 
 
 <script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript">
+$(document).ready(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://fr.foxyform.com/js.php?id=169327&sec_hash=f806675ca2a&width=500px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script> <!-- Script du formulaire de contact -->
 </body>
 </html>

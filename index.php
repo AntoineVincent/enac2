@@ -6,7 +6,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <meta name="description" content="" />
-<title>ENAC</title>
+
+<title>Challenge ENAC ALUMNI - AVICO</title>
 
 <!-- css -->
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
@@ -16,7 +17,7 @@
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/style.css" />
-
+<link rel="icon" type="image/ico" href="favicon.ico" />
 
 <!-- js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
@@ -24,9 +25,8 @@
 <script src="js/bootstrap.min.js"></script> <!-- Script Bootsrap -->
 <script src="js/classie.js"></script><!-- Script pour ajouter une classe facilement au CSS via Jquery -->
 <script src="js/scriptheader.js" type="text/javascript"></script><!-- Script pour faire apparaitre le header -->
+
 </head>
-
-
 
 <body>
     <div class="container-fluid">
@@ -100,6 +100,7 @@
         	        			<h1>Dates</h1>
         	        		<br/>
         	        	</div>
+        	        	<div id="participer"></div>
         	        	<div class="row">
         	        		<div class="col-md-12 participer">
         	        		<h1>Participer</h1>
@@ -227,9 +228,9 @@
         </div><!-- /#wrapper -->
         </div>
 
-<script type="text/javascript" src="./js/ancres.js"></script>
-<script type="text/javascript" src="./js/script.js"></script>
-<script type="text/javascript" src="./js/jury_text.js"></script>
+<script type="text/javascript" src="./js/ancres.js"></script> <!-- Script pour créer une transition lente au clic sur les ancres -->
+<script type="text/javascript" src="./js/script.js"></script> <!-- Script pour afficher et faire disparaitre la vidéo et le overlay -->
+<script type="text/javascript" src="./js/jury_text.js"></script> <!-- Script pour afficher un commentaire sur chaque image du jury-->
 <script type="text/javascript">
 $(document).ready(function(d, t){
    var g = d.createElement(t),
@@ -237,6 +238,6 @@ $(document).ready(function(d, t){
    g.src = "http://fr.foxyform.com/js.php?id=169327&sec_hash=f806675ca2a&width=500px";
    s.parentNode.insertBefore(g, s);
 }(document, "script"));
-</script>
+</script> <!-- Script du formulaire de contact -->
 </body>
 </html>
