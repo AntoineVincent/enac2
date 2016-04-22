@@ -85,32 +85,7 @@ Ce qu’il faut savoir de manière générale, c’est que si vous ne souhaitez 
             <p class="reponse">Si l’objectif principal du Challenge soit de stimuler l’esprit entrepreneurial chez les Challengers, en tant qu’individus, il est aussi de faire émerger l’innovation. A ce titre, il a été décidé de ne pas fermer la compétition aux sociétés qui souhaiteraient développer un nouveau projet, à la condition que cela reste dans l’esprit entrepreneurial du Challenge. Cela signifie que le projet doit être innovant et/ou sorte du cadre habituel d’intervention de l’entreprise. C’est le comité de présélection qui déterminera si cela est le cas, au moment d’accepter ou non la candidature.</p>
         </div>
     </div>
-        <div class="row popup">
-            <div class="col-md-2 bordures"></div>
-            <div class="col-md-8 contactpop">
-                <a href="#1"><div class="boutonfermer">Fermer X</div></a>
-                <div class="col-md-4 formulaire1">
-                    <h2 class="txtcontact">contact</h2>
-                    <p class="txtcontact">ici le texte du contact</p>
-                    <p class="txtcontact">adresse</p>
-                    <p class="txtcontact">autres coordonnées</p>
-                </div>
-                <div class="col-md-8 formulaire2">
-                    <form method="post" action="./contact.php">
-                        <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
-                        <br/>
-                        <input name="email" type="text" id="email" class="inputform" value="Email"></input>
-                        <br/>
-                        <textarea name="commentaire" id="commentaire">Message</textarea>
-                        <br/>
-                        <input name="bouton" type="submit" id="btncontact" class="inputform" value="Envoyez votre message"></input>
-                        <br/>
-                    </form>
-                </div>
-            </div>
-        <div class="col-md-2 bordures"></div>
-        </div>
-        <div id="ancrecontact"></div>
+        
            <div class="modal fade ongletcontact" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">

@@ -62,33 +62,7 @@ Donec porttitor erat in dui varius lacinia. Vivamus non volutpat nulla. Phasellu
 Cras et turpis iaculis, viverra massa eget, eleifend libero. Curabitur accumsan maximus orci, ut porttitor neque convallis sit amet. Cras a dignissim elit. Sed a dignissim erat. Sed id nulla ex. Vivamus ut placerat libero. Nam fermentum leo et felis faucibus aliquet. Nulla feugiat volutpat orci, sed rhoncus purus mollis vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
         </div>
     </div>
-	<div class="azerty"></div>
-        <div class="row popup">
-            <div class="col-md-2 bordures"></div>
-            <div class="col-md-8 contactpop">
-                <a href="#1"><div class="boutonfermer">Fermer X</div></a>
-                <div class="col-md-4 formulaire1">
-                    <h2 class="txtcontact">contact</h2>
-                    <p class="txtcontact">ici le texte du contact</p>
-                    <p class="txtcontact">adresse</p>
-                    <p class="txtcontact">autres coordonnées</p>
-                </div>
-                <div class="col-md-8 formulaire2">
-                    <form method="post" action="./contact.php">
-                        <input name="name" type="text" id="name" class="inputform" value="votre nom"></input>
-                        <br/>
-                        <input name="email" type="text" id="email" class="inputform" value="Email"></input>
-                        <br/>
-                        <textarea name="commentaire" id="commentaire">Message</textarea>
-                        <br/>
-                        <input name="bouton" type="submit" id="btncontact" class="inputform" value="Envoyez votre message"></input>
-                        <br/>
-                    </form>
-                </div>
-            </div>
-            <div class="col-md-2 bordures"></div>
-        </div>
-    <div id="ancrecontact"></div>
+	
        <div class="modal fade ongletcontact" id="mycontact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
